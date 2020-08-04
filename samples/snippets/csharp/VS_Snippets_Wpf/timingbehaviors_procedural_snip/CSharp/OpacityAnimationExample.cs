@@ -34,7 +34,7 @@ namespace Microsoft.Samples.Animation.TimingBehaviors
             //
             Button opacityAnimatedButton = new Button();
             opacityAnimatedButton.Name = "opacityAnimatedButton";
-            this.RegisterName( opacityAnimatedButton.Name, opacityAnimatedButton);
+            this.RegisterName(opacityAnimatedButton.Name, opacityAnimatedButton);
             opacityAnimatedButton.Content = "A Button";
             myStackPanel.Children.Add(opacityAnimatedButton);
 
@@ -42,8 +42,8 @@ namespace Microsoft.Samples.Animation.TimingBehaviors
             //  Create an animation to animate the opacity of a button
             //
             DoubleAnimation myOpacityDoubleAnimation = new DoubleAnimation();
-            Storyboard.SetTargetName(myOpacityDoubleAnimation,opacityAnimatedButton.Name);
-            Storyboard.SetTargetProperty(myOpacityDoubleAnimation,new PropertyPath(Button.OpacityProperty));
+            Storyboard.SetTargetName(myOpacityDoubleAnimation, opacityAnimatedButton.Name);
+            Storyboard.SetTargetProperty(myOpacityDoubleAnimation, new PropertyPath(Button.OpacityProperty));
             myOpacityDoubleAnimation.From = 1;
             myOpacityDoubleAnimation.To = 0;
             myOpacityDoubleAnimation.Duration = new Duration(TimeSpan.FromMilliseconds(5000));

@@ -28,7 +28,7 @@ namespace NewStyle
 
         // <ReadOnlyAutoProperty>
         public string FirstName { get; }
-        public string LastName { get;  }
+        public string LastName { get; }
         // </ReadOnlyAutoProperty>
 
         // <Initialization>

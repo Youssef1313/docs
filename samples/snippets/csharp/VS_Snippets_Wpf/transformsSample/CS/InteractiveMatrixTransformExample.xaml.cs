@@ -13,28 +13,28 @@ namespace Microsoft.Samples.Graphics.Transforms
     public partial class InteractiveMatrixTransformExample : Page
     {
 
-    	public InteractiveMatrixTransformExample()
-    	{
-    	}
+        public InteractiveMatrixTransformExample()
+        {
+        }
 
-		private void applyButtonClicked(object sender, EventArgs args)
-		{
-			updateMatrixTransform();
-		}
+        private void applyButtonClicked(object sender, EventArgs args)
+        {
+            updateMatrixTransform();
+        }
 
-		private void updateMatrixTransform()
-		{
+        private void updateMatrixTransform()
+        {
 
-			Matrix myMatrix = new Matrix();
+            Matrix myMatrix = new Matrix();
 
-			myMatrix.M11 = Double.Parse(M11TextBox.Text);
-			myMatrix.M12 = Double.Parse(M12TextBox.Text);
-			myMatrix.M21 = Double.Parse(M21TextBox.Text);
-			myMatrix.M22 = Double.Parse(M22TextBox.Text);
-			myMatrix.OffsetX = Double.Parse(OffsetXTextBox.Text);
-			myMatrix.OffsetY = Double.Parse(OffsetYTextBox.Text);
+            myMatrix.M11 = Double.Parse(M11TextBox.Text);
+            myMatrix.M12 = Double.Parse(M12TextBox.Text);
+            myMatrix.M21 = Double.Parse(M21TextBox.Text);
+            myMatrix.M22 = Double.Parse(M22TextBox.Text);
+            myMatrix.OffsetX = Double.Parse(OffsetXTextBox.Text);
+            myMatrix.OffsetY = Double.Parse(OffsetYTextBox.Text);
 
-			myMatrixTransform.Matrix = myMatrix;
-		}
+            myMatrixTransform.Matrix = myMatrix;
+        }
     }
 }

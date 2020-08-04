@@ -269,7 +269,7 @@ namespace DCSurrogateSample
             //</snippet8>
         }
 
-        private void WSDLImport(string metadataAddress )
+        private void WSDLImport(string metadataAddress)
         {
             //<snippet9>
             MetadataExchangeClient mexClient = new MetadataExchangeClient(metadataAddress);
@@ -323,7 +323,7 @@ namespace DCSurrogateSample
     {
     }
 
-    public class InventorySurrogated:IDataContractSurrogate
+    public class InventorySurrogated : IDataContractSurrogate
     {
 
         #region IDataContractSurrogate Members

@@ -26,7 +26,7 @@ namespace cs_gettingstartedexpers
                 Console.WriteLine(custObj.CustomerID);
                 foreach (Order ord in custObj.Orders)
                 {
-                    Console.WriteLine("\t {0}",ord.OrderDate);
+                    Console.WriteLine("\t {0}", ord.OrderDate);
                 }
             }
             // </Snippet1>

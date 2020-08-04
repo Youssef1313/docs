@@ -130,7 +130,7 @@ namespace Microsoft.ServiceModel.Samples
 
     // Service class that implements the service contract.
     // Added code to write output to the console window.
-    [ServiceBehavior(AddressFilterMode=AddressFilterMode.Any)]
+    [ServiceBehavior(AddressFilterMode = AddressFilterMode.Any)]
     public class OrderProcessorService : IOrderProcessor
     {
         [OperationBehavior(TransactionScopeRequired = true, TransactionAutoComplete = true)]

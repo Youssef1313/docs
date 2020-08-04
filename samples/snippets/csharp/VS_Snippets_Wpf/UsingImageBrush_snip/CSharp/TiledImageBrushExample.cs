@@ -39,7 +39,7 @@ namespace Microsoft.Samples.Graphics.UsingImageBrush
             // Set the ImageBrush's Viewport and TileMode
             // so that it produces a pattern from
             // the image.
-            berriesBrush.Viewport = new Rect(0,0,0.5,0.5);
+            berriesBrush.Viewport = new Rect(0, 0, 0.5, 0.5);
             berriesBrush.TileMode = TileMode.FlipXY;
 
             // Use the brush to paint the button's background.

@@ -6,11 +6,11 @@ using System.Configuration;
 
 namespace WPFAquarium
 {
-  /// <summary>
-  /// Interaction logic for MyApp.xaml
-  /// </summary>
+    /// <summary>
+    /// Interaction logic for MyApp.xaml
+    /// </summary>
 
-  public partial class MyApp : Application
-  {
-  }
+    public partial class MyApp : Application
+    {
+    }
 }

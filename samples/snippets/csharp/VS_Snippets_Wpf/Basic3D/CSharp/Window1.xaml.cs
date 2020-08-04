@@ -11,12 +11,12 @@ using System.Windows.Media.Media3D;
 
 namespace Blank3DSample
 {
-	/// <summary>
-	/// Interaction logic for Window1.xaml
-	/// </summary>
+    /// <summary>
+    /// Interaction logic for Window1.xaml
+    /// </summary>
 
-	public partial class Window1 : Window
-	{
+    public partial class Window1 : Window
+    {
         public Window1()
         {
             InitializeComponent();

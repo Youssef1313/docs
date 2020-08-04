@@ -94,7 +94,7 @@ namespace ClientSample
     public class Calculator : ICalculator
     {
         //<snippet2>
-        [OperationBehavior(Impersonation=ImpersonationOption.Required)]
+        [OperationBehavior(Impersonation = ImpersonationOption.Required)]
         public double Add(double a, double b)
         {
             return a + b;

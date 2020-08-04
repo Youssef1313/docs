@@ -530,5 +530,5 @@ namespace AstoriaSnippetsCS
         {
             Source.CallServiceOperationVoid();
         }
-  }
+    }
 }

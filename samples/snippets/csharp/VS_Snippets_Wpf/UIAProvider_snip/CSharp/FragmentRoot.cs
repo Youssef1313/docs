@@ -109,7 +109,7 @@ namespace ElementProvider
             return;
         }
 
-// <Snippet150>
+        // <Snippet150>
         /// <summary>
         /// Responds to a button click, regardless of whether it was caused by a mouse or
         /// keyboard click or by InvokePattern.Invoke.
@@ -125,7 +125,7 @@ namespace ElementProvider
                 AutomationInteropProvider.RaiseAutomationEvent(InvokePatternIdentifiers.InvokedEvent, this, args);
             }
         }
-// </Snippet150>
+        // </Snippet150>
 
         #region IRawElementProviderSimple
 
@@ -231,7 +231,7 @@ namespace ElementProvider
         {
             return null;
             //return new int[] { AutomationInteropProvider.AppendRuntimeId, 1 };
-                  // not implemented by root, says Brendan's sample
+            // not implemented by root, says Brendan's sample
         }
 
         // <Snippet105>

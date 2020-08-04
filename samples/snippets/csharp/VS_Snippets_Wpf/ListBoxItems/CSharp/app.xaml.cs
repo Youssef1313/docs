@@ -9,12 +9,12 @@ using System.Windows.Data;
 
 namespace ListBox_Index
 {
-	public partial class app : Application
-	{
-		void AppStartingUp(object sender, EventArgs e)
-		{
-			Window1 mainWindow = new Window1();
-			mainWindow.Show();
-		}
-	}
+    public partial class app : Application
+    {
+        void AppStartingUp(object sender, EventArgs e)
+        {
+            Window1 mainWindow = new Window1();
+            mainWindow.Show();
+        }
+    }
 }

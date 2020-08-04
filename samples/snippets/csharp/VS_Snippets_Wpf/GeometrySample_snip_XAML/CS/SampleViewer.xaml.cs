@@ -15,9 +15,9 @@ namespace Microsoft.Samples.Graphics.Geometries
     public partial class SampleViewer : Page
     {
 
-       public SampleViewer()
-       {
+        public SampleViewer()
+        {
             InitializeComponent();
-       }
+        }
     }
 }

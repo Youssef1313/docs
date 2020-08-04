@@ -78,7 +78,7 @@ namespace ElementProvider
             // because it is illegal to update the UI from a different thread.
             MouseEventHandler onMouseEvent = ProviderControl.RootButtonControl_MouseDown;
             ProviderControl.BeginInvoke(onMouseEvent, new object[] { this, mouseArgs });
-            }
         }
-// </Snippet106>
+    }
+    // </Snippet106>
 }

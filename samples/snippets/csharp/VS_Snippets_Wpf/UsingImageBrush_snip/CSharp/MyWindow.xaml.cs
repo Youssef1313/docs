@@ -14,7 +14,7 @@ namespace Microsoft.Samples.Graphics.UsingImageBrush
     {
         public MyWindow()
         {
-                    InitializeComponent();
+            InitializeComponent();
         }
     }
 }

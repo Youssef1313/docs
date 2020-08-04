@@ -35,7 +35,7 @@ class Program
                     // Display number of rows inserted.
                     Console.WriteLine("Inserted {0} rows.", rows);
                 }
-                    // Handle data errors.
+                // Handle data errors.
                 catch (DbException exDb)
                 {
                     Console.WriteLine("DbException.GetType: {0}", exDb.GetType());
@@ -43,7 +43,7 @@ class Program
                     Console.WriteLine("DbException.ErrorCode: {0}", exDb.ErrorCode);
                     Console.WriteLine("DbException.Message: {0}", exDb.Message);
                 }
-                    // Handle all other exceptions.
+                // Handle all other exceptions.
                 catch (Exception ex)
                 {
                     Console.WriteLine("Exception.Message: {0}", ex.Message);

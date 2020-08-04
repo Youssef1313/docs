@@ -12,9 +12,9 @@ namespace Microsoft.Samples.Graphics.Geometries
     public partial class GeometryUsageExample : Page
     {
 
-       public GeometryUsageExample()
-       {
-         InitializeComponent();
-       }
+        public GeometryUsageExample()
+        {
+            InitializeComponent();
+        }
     }
 }

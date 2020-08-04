@@ -8,11 +8,13 @@ using System.Windows.Shapes;
 using System.Windows.Navigation;
 using System.Text;
 
-namespace SDKSample {
-    public partial class XAMLAPP{
-      void InstanceHandler(object sender, RoutedEventArgs e)
-      {
-        MessageBox.Show("This should never be invoked....");
-      }
-  }
+namespace SDKSample
+{
+    public partial class XAMLAPP
+    {
+        void InstanceHandler(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("This should never be invoked....");
+        }
+    }
 }

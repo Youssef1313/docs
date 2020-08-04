@@ -51,7 +51,7 @@ namespace SDKSamples
             ellipseStoryboard.Children.Add(myThicknessAnimation);
 
             // Start the storyboard when the Path loads.
-            myBorder.Loaded += delegate(object sender, RoutedEventArgs e)
+            myBorder.Loaded += delegate (object sender, RoutedEventArgs e)
             {
                 ellipseStoryboard.Begin(this);
             };

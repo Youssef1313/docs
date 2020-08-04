@@ -12,8 +12,8 @@ using System.Windows.Input;
 namespace SDKSample
 {
 
-	public partial class StretchMediaElementExample : Page
-	{
+    public partial class StretchMediaElementExample : Page
+    {
 
         // Change the Stretch property to the selected value.
         void OnClickChangeStretch(object sender, RoutedEventArgs args)
@@ -36,7 +36,7 @@ namespace SDKSample
                     myMediaElement.Stretch = Stretch.UniformToFill;
                     break;
             }
-	    }
+        }
     }
 }
 // </SnippetMediaElementCSharpExampleWholePage>

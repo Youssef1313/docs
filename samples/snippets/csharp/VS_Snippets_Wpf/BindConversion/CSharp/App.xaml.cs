@@ -6,17 +6,17 @@ using System.Configuration;
 
 namespace SDKSample
 {
-	/// <summary>
-	/// Interaction logic for App.xaml
-	/// </summary>
+    /// <summary>
+    /// Interaction logic for App.xaml
+    /// </summary>
 
-	public partial class App : Application
-	{
-		void AppStartingUp(object sender, StartupEventArgs e)
-		{
-			Window1 mainWindow = new Window1();
-      mainWindow.InitializeComponent();
-			mainWindow.Show();
-		}
-	}
+    public partial class App : Application
+    {
+        void AppStartingUp(object sender, StartupEventArgs e)
+        {
+            Window1 mainWindow = new Window1();
+            mainWindow.InitializeComponent();
+            mainWindow.Show();
+        }
+    }
 }

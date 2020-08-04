@@ -47,4 +47,4 @@ namespace Samples
         private IssuedTokenClientCredentialsConfiguration() { }
     }
 }
-  //</snippet0>
+//</snippet0>

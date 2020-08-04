@@ -326,7 +326,7 @@ namespace SDKSample
                 return; // DocumentViewer has not been initialized yet.
 
             // If Annotations are disabled, use normal DocuementViewer.Print()
-            if ((menuViewAnnotations.IsChecked==false) || (_annotHelper == null))
+            if ((menuViewAnnotations.IsChecked == false) || (_annotHelper == null))
             {
                 docViewer.Print();
             }
@@ -397,13 +397,13 @@ namespace SDKSample
         public DocumentViewer DocViewer
         {
             get
-                { return docViewer; }
+            { return docViewer; }
         }
 
         #region private fields
 
         private string _xpsDocumentPath; // XPS document path and filename.
-        private Uri    _packageUri;      // XPS document path and filename URI.
+        private Uri _packageUri;      // XPS document path and filename URI.
         private Package _xpsPackage = null; // XPS document package.
         private XpsDocument _xpsDocument;   // XPS document within the package.
         private AnnotationsHelperXps _annotHelper;  // Annotations class helper.

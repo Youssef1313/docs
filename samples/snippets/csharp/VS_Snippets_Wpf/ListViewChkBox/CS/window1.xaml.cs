@@ -17,13 +17,13 @@ namespace SDKSample
 
     public partial class Window1 : Window
     {
-      void mySelectionChanged(object sender,
-                              SelectionChangedEventArgs e)
-      {
-         XmlElement mySelectedElement =
-             (XmlElement)myPlaylist.SelectedItem;
-         NowPlaying.Text = mySelectedElement.GetAttribute("Name").ToString()
-          + " by " +mySelectedElement.GetAttribute("Artist").ToString();
-      }
+        void mySelectionChanged(object sender,
+                                SelectionChangedEventArgs e)
+        {
+            XmlElement mySelectedElement =
+                (XmlElement)myPlaylist.SelectedItem;
+            NowPlaying.Text = mySelectedElement.GetAttribute("Name").ToString()
+             + " by " + mySelectedElement.GetAttribute("Artist").ToString();
+        }
     }
-    }
+}

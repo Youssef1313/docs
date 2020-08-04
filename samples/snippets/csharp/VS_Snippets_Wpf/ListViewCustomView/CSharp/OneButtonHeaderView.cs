@@ -18,26 +18,26 @@ namespace SDKSample
     {
         protected override IViewAutomationPeer GetAutomationPeer(ListView parent)
         {
-            return new OneButtonHeaderViewAutomationPeer( this, parent );
+            return new OneButtonHeaderViewAutomationPeer(this, parent);
         }
-    //</SnippetIVAPCreate>
+        //</SnippetIVAPCreate>
 
         protected override object DefaultStyleKey
         {
-          get
-          {
-            return new ComponentResourceKey(this.GetType(),
-                             "OneButtonHeaderViewDSK");
-          }
+            get
+            {
+                return new ComponentResourceKey(this.GetType(),
+                                 "OneButtonHeaderViewDSK");
+            }
         }
 
         protected override object ItemContainerDefaultStyleKey
         {
-          get
-          {
-            return new ComponentResourceKey(this.GetType(),
-                            "OneButtonHeaderViewItemDSK");
-          }
+            get
+            {
+                return new ComponentResourceKey(this.GetType(),
+                                "OneButtonHeaderViewItemDSK");
+            }
         }
     }
 

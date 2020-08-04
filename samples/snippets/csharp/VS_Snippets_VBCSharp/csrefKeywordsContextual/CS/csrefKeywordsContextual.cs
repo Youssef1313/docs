@@ -60,7 +60,7 @@ namespace csrefKeywordsContextual
         }
     }
 
-     //<snippet5>
+    //<snippet5>
     public class PowersOf2
     {
         static void Main()
@@ -271,4 +271,4 @@ public static class GalaxyClass
         public int MegaLightYears { get; set; }
     }
 }
-    //</Snippet21>
+//</Snippet21>

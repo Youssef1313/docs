@@ -6,17 +6,17 @@ using System.Configuration;
 
 namespace Height_MinHeight_MaxHeight
 {
-	/// <summary>
-	/// Interaction logic for app.xaml
-	/// </summary>
+    /// <summary>
+    /// Interaction logic for app.xaml
+    /// </summary>
 
-	public partial class app : Application
-	{
-		void AppStartingUp(object sender, StartupEventArgs e)
-		{
-			Window1 mainWindow = new Window1();
-			mainWindow.InitializeComponent();
-			mainWindow.Show();
+    public partial class app : Application
+    {
+        void AppStartingUp(object sender, StartupEventArgs e)
+        {
+            Window1 mainWindow = new Window1();
+            mainWindow.InitializeComponent();
+            mainWindow.Show();
         }
-	}
+    }
 }

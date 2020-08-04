@@ -93,7 +93,7 @@ namespace PropertyMappingWithWfh
             System.Windows.FlowDirection fd = (System.Windows.FlowDirection)value;
             System.Windows.Forms.CheckBox cb = host.Child as System.Windows.Forms.CheckBox;
 
-            cb.RightToLeft = (fd == System.Windows.FlowDirection.RightToLeft ) ?
+            cb.RightToLeft = (fd == System.Windows.FlowDirection.RightToLeft) ?
                 RightToLeft.Yes : RightToLeft.No;
         }
 
@@ -105,7 +105,7 @@ namespace PropertyMappingWithWfh
         {
             System.Windows.Forms.CheckBox cb = sender as System.Windows.Forms.CheckBox;
 
-            wfHost.FlowDirection = ( cb.CheckState == CheckState.Checked ) ?
+            wfHost.FlowDirection = (cb.CheckState == CheckState.Checked) ?
                     System.Windows.FlowDirection.RightToLeft :
                     System.Windows.FlowDirection.LeftToRight;
         }
@@ -163,11 +163,11 @@ namespace PropertyMappingWithWfh
                 0,
                 0,
                 (int)wfHost.ActualWidth,
-                (int)wfHost.ActualHeight ) );
+                (int)wfHost.ActualHeight));
 
             path.CloseFigure();
 
-            return( new Region(path) );
+            return (new Region(path));
         }
         // </Snippet14>
 

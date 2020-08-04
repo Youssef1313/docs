@@ -6,17 +6,17 @@ using System.Configuration;
 
 namespace AdornersMiscCode
 {
-  /// <summary>
-  /// Interaction logic for MyApp.xaml
-  /// </summary>
+    /// <summary>
+    /// Interaction logic for MyApp.xaml
+    /// </summary>
 
-  public partial class MyApp : Application
-  {
-
-    void AppStartup(object sender, StartupEventArgs args)
+    public partial class MyApp : Application
     {
-      Window1 mainWindow = new Window1();
-      mainWindow.Show();
+
+        void AppStartup(object sender, StartupEventArgs args)
+        {
+            Window1 mainWindow = new Window1();
+            mainWindow.Show();
+        }
     }
-  }
 }

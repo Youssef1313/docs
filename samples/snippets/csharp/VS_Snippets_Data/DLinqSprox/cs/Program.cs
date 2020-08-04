@@ -31,7 +31,7 @@ namespace cs_sprox
 
             // Iterate through the list and write results (the company names)
             // to the console.
-            foreach(VariableResultShapesResult1 compName in
+            foreach (VariableResultShapesResult1 compName in
                 result.GetResult<VariableResultShapesResult1>())
             {
                 Console.WriteLine(compName.CompanyName);

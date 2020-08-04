@@ -14,17 +14,20 @@ using System.Collections.Generic;
 
 namespace WCSample
 {
-//<Snippet1cb>
-  public partial class TransformExample : Page {
-    private void Enter(object sender, MouseEventArgs args) {
-        myScaleTransform.ScaleX = 2;
-        myScaleTransform.ScaleY = 2;
-    }
+    //<Snippet1cb>
+    public partial class TransformExample : Page
+    {
+        private void Enter(object sender, MouseEventArgs args)
+        {
+            myScaleTransform.ScaleX = 2;
+            myScaleTransform.ScaleY = 2;
+        }
 
-    private void Leave(object sender, MouseEventArgs args) {
-        myScaleTransform.ScaleX = 1;
-        myScaleTransform.ScaleY = 1;
+        private void Leave(object sender, MouseEventArgs args)
+        {
+            myScaleTransform.ScaleX = 1;
+            myScaleTransform.ScaleY = 1;
+        }
     }
-  }
-//</Snippet1cb>
+    //</Snippet1cb>
 }

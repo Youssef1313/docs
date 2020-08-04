@@ -17,7 +17,7 @@ namespace Examples
         {
             //<snippet1>
             Uri baseAddress = new Uri("http://cohowinery.com/services");
-            ServiceHost sh = new ServiceHost(typeof(CalculatorService), baseAddress );
+            ServiceHost sh = new ServiceHost(typeof(CalculatorService), baseAddress);
             sh.Credentials.ServiceCertificate.SetCertificate(
             StoreLocation.LocalMachine, StoreName.My,
             X509FindType.FindBySubjectName, "cohowinery.com");

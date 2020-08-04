@@ -25,7 +25,7 @@ namespace SDKSamples
         private Storyboard showWeatherImageStoryboard;
         private Storyboard hideWeatherImageStoryboard;
 
-        public Window1(): base()
+        public Window1() : base()
         {
             InitializeComponent();
         }

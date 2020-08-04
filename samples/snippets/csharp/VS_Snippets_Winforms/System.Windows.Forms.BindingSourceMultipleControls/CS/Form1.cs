@@ -153,7 +153,7 @@ namespace MultipleControls
                 // If not, end the current edit.
                 e.Binding.BindingManagerBase.EndCurrentEdit(); ;
         }
- 	//</snippet11>
+        //</snippet11>
         [STAThread]
         static void Main()
         {

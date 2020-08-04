@@ -82,8 +82,8 @@ namespace Samples1
 
             //<snippet7>
             sh.Credentials.ServiceCertificate.SetCertificate(
-                StoreLocation.LocalMachine ,StoreName.My,
-                X509FindType.FindBySubjectName ,"localhost");
+                StoreLocation.LocalMachine, StoreName.My,
+                X509FindType.FindBySubjectName, "localhost");
             //</snippet7>
 
             //<snippet8>

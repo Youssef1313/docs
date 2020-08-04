@@ -13,9 +13,9 @@ namespace Microsoft.Samples.Graphics.Transforms
     public partial class SampleViewer : Window
     {
 
-    	public SampleViewer()
-    	{
-    		InitializeComponent();
-    	}
+        public SampleViewer()
+        {
+            InitializeComponent();
+        }
     }
 }

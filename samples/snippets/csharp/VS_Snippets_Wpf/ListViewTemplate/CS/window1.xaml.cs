@@ -15,7 +15,7 @@ namespace SDKSample
     /// </summary>
 
     public partial class Window1 : Window
-    {}
+    { }
 
     public class myDateCollection :
             ObservableCollection<DateTime>
@@ -29,4 +29,4 @@ namespace SDKSample
             Add(new DateTime(2004, 6, 30));
         }
     }
-    }
+}

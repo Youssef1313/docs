@@ -31,7 +31,7 @@ namespace Microsoft.Samples.Animation.TimingBehaviors
             animatedRectangle.Height = 100;
             animatedRectangle.Fill = Brushes.Orange;
             mainPanel.Children.Add(animatedRectangle);
-//<SnippetUIElementApplyAnimationClock>
+            //<SnippetUIElementApplyAnimationClock>
             // Create a DoubleAnimation to
             // animate its width.
             DoubleAnimation widthAnimation =
@@ -50,13 +50,13 @@ namespace Microsoft.Samples.Animation.TimingBehaviors
             animatedRectangle.ApplyAnimationClock(
                 Rectangle.WidthProperty, myControllableClock);
 
-//</SnippetUIElementApplyAnimationClock>
+            //</SnippetUIElementApplyAnimationClock>
             //
             // Create some controls the enable the user to
             // interactively control the SpeedRatio of the clock.
             //
             StackPanel speedRatioDetailsPanel = new StackPanel();
-            speedRatioDetailsPanel.Margin = new Thickness(0,20,0,20);
+            speedRatioDetailsPanel.Margin = new Thickness(0, 20, 0, 20);
             speedRatioDetailsPanel.Orientation = Orientation.Horizontal;
             Label speedRatioLabel = new Label();
             speedRatioLabel.Content = "Speed Ratio:";

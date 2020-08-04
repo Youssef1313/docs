@@ -182,7 +182,7 @@ namespace SDKSample
         /// root element for this sample.
         /// </remarks>
         ///--------------------------------------------------------------------
-        [SecurityPermission(SecurityAction.Demand, Flags=SecurityPermissionFlag.UnmanagedCode)]
+        [SecurityPermission(SecurityAction.Demand, Flags = SecurityPermissionFlag.UnmanagedCode)]
         private AutomationElement StartApp(string app)
         {
             if (File.Exists(app))

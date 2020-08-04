@@ -21,7 +21,7 @@ class DerivedClass : BaseClass
 
         if (disposing)
         {
-           // Dispose managed state (managed objects).
+            // Dispose managed state (managed objects).
             _safeHandle?.Dispose();
         }
 

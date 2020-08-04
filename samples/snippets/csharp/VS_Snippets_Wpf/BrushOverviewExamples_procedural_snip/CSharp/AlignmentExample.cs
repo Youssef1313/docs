@@ -31,7 +31,7 @@ namespace Microsoft.Samples.BrushExamples
             myRectangle.Height = 150;
             myRectangle.Stroke = Brushes.LimeGreen;
             myRectangle.StrokeThickness = 1;
-            myRectangle.Margin = new Thickness(0,5,0,0);
+            myRectangle.Margin = new Thickness(0, 5, 0, 0);
 
             // Load the image.
             BitmapImage theImage =

@@ -15,18 +15,18 @@ namespace SDKSample
     {
         protected override object DefaultStyleKey
         {
-          get
-          {
-            return new ComponentResourceKey(this.GetType(), "MyViewDSK");
-          }
+            get
+            {
+                return new ComponentResourceKey(this.GetType(), "MyViewDSK");
+            }
         }
 
         protected override object ItemContainerDefaultStyleKey
         {
-          get
-          {
-            return new ComponentResourceKey(this.GetType(), "MyViewItemDSK");
-          }
+            get
+            {
+                return new ComponentResourceKey(this.GetType(), "MyViewItemDSK");
+            }
         }
     }
 }

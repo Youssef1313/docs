@@ -95,7 +95,7 @@ namespace cs_querying
 
         public Northwnd GetNorthwind()
         {
-            Northwnd x = null ;
+            Northwnd x = null;
             return x;
         }
 

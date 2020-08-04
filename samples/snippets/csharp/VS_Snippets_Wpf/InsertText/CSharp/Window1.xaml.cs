@@ -194,7 +194,7 @@ namespace InsertTextClient
                 Feedback("Please enter some text to insert.");
                 return;
             }
-            switch (((System.Windows.Controls.Button) sender).Content.ToString())
+            switch (((System.Windows.Controls.Button)sender).Content.ToString())
             {
                 case "UIAutomation":
                     SetValueWithUIAutomation(tbInsert.Text);

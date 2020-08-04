@@ -68,9 +68,9 @@ class myForm : Form
 
         this.SuspendLayout();
 
-//
-// myForm
-//
+        //
+        // myForm
+        //
         this.ClientSize = new System.Drawing.Size(292, 266);
         this.Name = "myForm";
         this.ResumeLayout(false);

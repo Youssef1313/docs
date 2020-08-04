@@ -147,11 +147,11 @@ namespace SDKSamples
                 }
                 if (source.Name == "rbScopeApplication")
                 {
-                   // Setting the element only scope flag to false
-                   cursorScopeElementOnly = false;
+                    // Setting the element only scope flag to false
+                    cursorScopeElementOnly = false;
 
-                   // Forcing the cursor for all elements.
-                   Mouse.OverrideCursor = DisplayArea.Cursor;
+                    // Forcing the cursor for all elements.
+                    Mouse.OverrideCursor = DisplayArea.Cursor;
                 }
             }
         }

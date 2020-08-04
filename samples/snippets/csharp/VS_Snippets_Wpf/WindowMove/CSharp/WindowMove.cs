@@ -173,7 +173,7 @@ namespace SDKSample
         /// <summary>
         /// Start the WindowMove client.
         /// </summary>
-       private void CreateWindow()
+        private void CreateWindow()
         {
             Window window = new Window();
             StackPanel sp = new StackPanel();

@@ -35,7 +35,7 @@ namespace ITypedListCS
         {
             PropertyDescriptorCollection pdc;
 
-            if (listAccessors!=null && listAccessors.Length>0)
+            if (listAccessors != null && listAccessors.Length > 0)
             {
                 // Return child list shape.
                 pdc = ListBindingHelper.GetListItemProperties(listAccessors[0].PropertyType);

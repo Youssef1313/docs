@@ -13,7 +13,7 @@ namespace SDKSamples
 {
     class InitializeElements : Application
     {
-//<SnippetMain>
+        //<SnippetMain>
         [STAThread]
         static void Main(string[] args)
         {
@@ -52,7 +52,7 @@ namespace SDKSamples
             RenderTargetBitmap image2 = Rasterize(b, paperSize.Width, paperSize.Height, 96, 96);
             Save(image2, "render2.png");
         }
-//</SnippetMain>
+        //</SnippetMain>
 
         private static RenderTargetBitmap Rasterize(Visual visual, double width, double height, double dpiX, double dpiY)
         {

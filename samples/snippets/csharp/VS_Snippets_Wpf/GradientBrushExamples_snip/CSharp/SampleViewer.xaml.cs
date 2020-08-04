@@ -15,13 +15,13 @@ namespace Microsoft.Samples.GradientBrushExamples
 
     public partial class SampleViewer : Page
     {
-       public SampleViewer()
-       {
+        public SampleViewer()
+        {
             InitializeComponent();
 
             LinearGradientBrushExampleFrame.Content = new LinearGradientBrushExample();
             RadialGradientBrushExampleFrame.Content = new RadialGradientBrushExample();
             GradientStopsExampleFrame.Content = new GradientStopsExample();
-       }
+        }
     }
 }

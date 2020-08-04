@@ -23,11 +23,13 @@ namespace SDKSample
         private void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs args)
         {
 
-            try {
+            try
+            {
                 StreamWriter wr = new StreamWriter("error.txt");
                 wr.Write(args.ExceptionObject.ToString());
                 wr.Close();
-            }catch
+            }
+            catch
             {
             }
 

@@ -35,7 +35,8 @@ public class FindingExistingFilesAndDirectories
         // method.
 
         Console.WriteLine("Here is a list of all the files in this isolated store:");
-        foreach (string file in GetAllFiles("*", isoStore)){
+        foreach (string file in GetAllFiles("*", isoStore))
+        {
             Console.WriteLine(file);
         }
     } // End of Main.

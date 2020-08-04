@@ -10,7 +10,7 @@ namespace SDKSample
 {
 
     public partial class DropShadowExample : Page
-	{
+    {
 
         // Add Blur effect.
         void OnClickDropShadowButton(object sender, RoutedEventArgs args)

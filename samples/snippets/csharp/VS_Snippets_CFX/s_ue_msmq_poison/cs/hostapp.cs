@@ -46,13 +46,13 @@ namespace Microsoft.ServiceModel.Samples
             }
             catch (TimeoutException timeProblem)
             {
-              Console.WriteLine("The service operation timed out. " + timeProblem.Message);
-              Console.ReadLine();
+                Console.WriteLine("The service operation timed out. " + timeProblem.Message);
+                Console.ReadLine();
             }
             catch (CommunicationException commProblem)
             {
-              Console.WriteLine("There was a communication problem. " + commProblem.Message + commProblem.StackTrace);
-              Console.ReadLine();
+                Console.WriteLine("There was a communication problem. " + commProblem.Message + commProblem.StackTrace);
+                Console.ReadLine();
             }
         }
     }

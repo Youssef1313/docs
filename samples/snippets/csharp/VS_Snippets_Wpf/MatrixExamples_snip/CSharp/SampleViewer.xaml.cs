@@ -15,11 +15,11 @@ namespace Microsoft.Samples.MatrixExamples
 
     public partial class SampleViewer : Page
     {
-       public SampleViewer()
-       {
+        public SampleViewer()
+        {
             InitializeComponent();
 
             MatrixExampleFrame.Content = new MatrixExample();
-       }
+        }
     }
 }

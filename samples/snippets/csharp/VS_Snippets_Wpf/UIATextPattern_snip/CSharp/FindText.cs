@@ -81,16 +81,16 @@ using System.IO;
 
 namespace SDKSample
 {
-    public class FindText: Application
+    public class FindText : Application
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-			// Initialize the sample
+            // Initialize the sample
             new SearchWindow();
         }
 
         // Window shut down event handler
-        protected override void  OnExit(ExitEventArgs e)
+        protected override void OnExit(ExitEventArgs e)
         {
             base.OnExit(e);
         }

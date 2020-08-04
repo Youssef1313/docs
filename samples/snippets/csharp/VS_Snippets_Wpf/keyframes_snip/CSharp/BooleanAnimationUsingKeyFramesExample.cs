@@ -108,7 +108,7 @@ namespace Microsoft.Samples.KeyFrameExamples
             myStoryboard.Children.Add(booleanAnimation);
 
             // Start the storyboard when the button is clicked.
-            myButton.Click += delegate(object sender, RoutedEventArgs e)
+            myButton.Click += delegate (object sender, RoutedEventArgs e)
             {
                 myStoryboard.Begin(this);
             };

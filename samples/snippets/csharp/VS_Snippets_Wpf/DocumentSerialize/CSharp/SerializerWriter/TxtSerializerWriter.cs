@@ -11,7 +11,7 @@ using System.Windows.Controls;
 
 namespace SdkSample
 {
-    class TxtSerializerWriter:SerializerWriter
+    class TxtSerializerWriter : SerializerWriter
     {
         public TxtSerializerWriter(Stream stream)
         {
@@ -81,10 +81,10 @@ namespace SdkSample
         public override void Write(DocumentPaginator documentPaginator, PrintTicket printTicket)
         {
             //SerializeVisualTree(documentPaginator.Source as DependencyObject);
-            for( int i = 0; i < documentPaginator.PageCount; i++ )
+            for (int i = 0; i < documentPaginator.PageCount; i++)
             {
                 DocumentPage page = documentPaginator.GetPage(i);
-                 SerializeVisualTree(page.Visual);
+                SerializeVisualTree(page.Visual);
             }
             _writer.Close();
         }
@@ -184,7 +184,7 @@ namespace SdkSample
         public override void Write(FixedDocument fixedDocument, PrintTicket printTicket)
         {
             Write(fixedDocument.DocumentPaginator, printTicket);
-         }
+        }
 
         /// <summary>
         /// Asynchronous Write a single FixedDocument and close package
@@ -342,7 +342,7 @@ namespace SdkSample
         {
             System.Windows.Media.Drawing content = VisualTreeHelper.GetDrawing(treeObject as Visual);
             BuildGlypeTree(textObjects, content);
-            int childCount = VisualTreeHelper.GetChildrenCount( treeObject );
+            int childCount = VisualTreeHelper.GetChildrenCount(treeObject);
             for (int i = 0; i < childCount; i++)
             {
                 DependencyObject child = VisualTreeHelper.GetChild(treeObject, i);
@@ -381,7 +381,7 @@ namespace SdkSample
             {
                 FlowDocument flowDocument = (visual as FlowDocument);
                 result = new TextRange(flowDocument.ContentStart,
-                                                flowDocument.ContentEnd).Text;;
+                                                flowDocument.ContentEnd).Text; ;
             }
             else if (visual is Glyphs)
             {
@@ -418,7 +418,7 @@ namespace SdkSample
             {
                 result = 1;
             }
-             return result;
+            return result;
         }
     }
 }

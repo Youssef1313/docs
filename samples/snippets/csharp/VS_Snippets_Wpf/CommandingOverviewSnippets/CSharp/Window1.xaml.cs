@@ -171,7 +171,7 @@ namespace SDKSamples
         {
             Control target = e.Source as Control;
 
-            if(target != null)
+            if (target != null)
             {
                 e.CanExecute = true;
             }
@@ -188,19 +188,19 @@ namespace SDKSamples
         {
             RoutedCommand command = e.Command as RoutedCommand;
 
-            if(command != null)
+            if (command != null)
             {
-                if(command == MediaCommands.Pause)
+                if (command == MediaCommands.Pause)
                 {
-                       MyPauseMethod();
+                    MyPauseMethod();
                 }
-                if(command == MediaCommands.Play)
+                if (command == MediaCommands.Play)
                 {
-                       MyPlayMethod();
+                    MyPlayMethod();
                 }
-                if(command == MediaCommands.Stop)
+                if (command == MediaCommands.Stop)
                 {
-                       MyStopMethod();
+                    MyStopMethod();
                 }
             }
         }

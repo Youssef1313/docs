@@ -80,7 +80,7 @@ namespace SnippetsPart2
             Uri myUri = new Uri("hello");
             Uri[] addresses = new Uri[] { myUri };
             Type c = typeof(HelloService);
-            ServiceHost serviceHost = new ServiceHost(c, addresses );
+            ServiceHost serviceHost = new ServiceHost(c, addresses);
 
             //<snippet3>
             // Code to create a ServiceHost not shown.
@@ -91,7 +91,7 @@ namespace SnippetsPart2
 
             //<snippet4>
             ChannelFactory<IEcho> cf = new ChannelFactory<IEcho>("EchoEndpoint");
-            cf.Credentials.Windows.AllowedImpersonationLevel  =
+            cf.Credentials.Windows.AllowedImpersonationLevel =
                 System.Security.Principal.TokenImpersonationLevel.Impersonation;
             //</snippet4>
         }

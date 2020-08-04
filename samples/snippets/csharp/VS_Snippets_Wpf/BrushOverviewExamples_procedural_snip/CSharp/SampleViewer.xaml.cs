@@ -15,11 +15,11 @@ namespace Microsoft.Samples.BrushExamples
 
     public partial class SampleViewer : Page
     {
-       public SampleViewer()
-       {
+        public SampleViewer()
+        {
             InitializeComponent();
 
             SolidColorBrushExampleFrame.Content = new SolidColorBrushExample();
-       }
+        }
     }
 }

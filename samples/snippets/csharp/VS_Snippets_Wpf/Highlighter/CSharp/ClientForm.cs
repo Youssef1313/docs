@@ -152,7 +152,7 @@ namespace Highlighter
         private void UpdateHighlight()
         {
             // Hide old rectangle.
-                highlight.Visible = false;
+            highlight.Visible = false;
 
             // Show new rectangle.
             highlight.Location = new Rectangle(

@@ -23,5 +23,5 @@ namespace SDKSample
             myTextBlock.FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "/pages/#Pericles Light");
             // </SnippetFontPackageSnippet4>
         }
-   }
+    }
 }

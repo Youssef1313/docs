@@ -98,7 +98,7 @@ namespace SDKSample
         {
             // Create a brown color using the FromAValues static method.
             Color myAValuesColor = new Color();
-            float [] colorValues = new float[4];
+            float[] colorValues = new float[4];
             colorValues[0] = 0.0f;
             colorValues[1] = 0.5f;
             colorValues[2] = 0.5f;

@@ -51,10 +51,10 @@ namespace SDKSample
     internal static class EntryClass
     {
         [System.STAThread()]
-        private static void Main ()
+        private static void Main()
         {
-            app app = new app ();
-            app.Run ();
+            app app = new app();
+            app.Run();
         }
     }
 }

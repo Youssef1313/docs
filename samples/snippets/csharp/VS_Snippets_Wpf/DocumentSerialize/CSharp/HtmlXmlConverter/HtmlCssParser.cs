@@ -963,7 +963,7 @@ namespace SdkSample
             // TODO: Add id processing for style selectors
             if (_styleDefinitions != null)
             {
-                for (int i = _styleDefinitions.Count - 1; i >= 0;  i--)
+                for (int i = _styleDefinitions.Count - 1; i >= 0; i--)
                 {
                     string selector = _styleDefinitions[i].Selector;
 

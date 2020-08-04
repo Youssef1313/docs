@@ -59,23 +59,24 @@ public class Test
 
     private void CreateServiceHost()
     {
-        ServiceHost myServiceHost=new ServiceHost(typeof(Calculator));
+        ServiceHost myServiceHost = new ServiceHost(typeof(Calculator));
 
         //<snippet3>
         myServiceHost.Credentials.ClientCertificate.Authentication.
-            CertificateValidationMode=
+            CertificateValidationMode =
             X509CertificateValidationMode.PeerOrChainTrust;
 
         myServiceHost.Credentials.ClientCertificate.Authentication.
-            RevocationMode=X509RevocationMode.Offline;
+            RevocationMode = X509RevocationMode.Offline;
         //</snippet3>
     }
 
-    private void CreateClient() {
-        CalculatorClient myClient= new CalculatorClient();
+    private void CreateClient()
+    {
+        CalculatorClient myClient = new CalculatorClient();
         //<snippet4>
         myClient.ClientCredentials.ServiceCertificate.
-            Authentication.CertificateValidationMode=
+            Authentication.CertificateValidationMode =
             X509CertificateValidationMode.PeerOrChainTrust;
         myClient.ClientCredentials.ServiceCertificate.Authentication.
             RevocationMode = X509RevocationMode.Offline;
@@ -89,7 +90,7 @@ public class Test
         double Add(double a, double b);
     }
 
-    public class Calculator:ICalculator
+    public class Calculator : ICalculator
     {
         public double Add(double a, double b)
         {

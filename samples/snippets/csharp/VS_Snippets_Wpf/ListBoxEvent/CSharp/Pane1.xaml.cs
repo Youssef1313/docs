@@ -56,7 +56,7 @@ namespace ListBoxEvent
                 if (GetRectangle(color) == null)
                 {
                     Rectangle aRect = new Rectangle();
-                    aRect.Fill = (Brush) converter.ConvertFrom(color);
+                    aRect.Fill = (Brush)converter.ConvertFrom(color);
                     aRect.Tag = color;
                     rectanglesPanel.Children.Add(aRect);
                 }

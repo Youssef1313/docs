@@ -26,7 +26,7 @@ namespace Microsoft.Samples.KeyFrameExamples
 
             // Create an EllipseGeometry.
             EllipseGeometry myAnimatedEllipseGeometry =
-                new EllipseGeometry(new Point(200,100), 15, 15);
+                new EllipseGeometry(new Point(200, 100), 15, 15);
 
             // Assign the EllipseGeometry a name so that
             // it can be targeted by a Storyboard.
@@ -94,7 +94,7 @@ namespace Microsoft.Samples.KeyFrameExamples
             ellipseStoryboard.Children.Add(centerPointAnimation);
 
             // Start the storyboard when the Path loads.
-            aPath.Loaded += delegate(object sender, RoutedEventArgs e)
+            aPath.Loaded += delegate (object sender, RoutedEventArgs e)
             {
                 ellipseStoryboard.Begin(this);
             };

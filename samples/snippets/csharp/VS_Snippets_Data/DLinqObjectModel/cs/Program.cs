@@ -13,7 +13,7 @@ namespace cs_objectmodel
         {
         }
     }
-// <Snippet1>
+    // <Snippet1>
     [Table(Name = "Customers")]
     public class Customerzz
     {

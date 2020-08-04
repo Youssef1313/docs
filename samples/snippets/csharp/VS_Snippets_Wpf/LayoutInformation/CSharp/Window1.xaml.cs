@@ -7,12 +7,12 @@ using System.Windows.Controls.Primitives;
 
 namespace layout_information
 {
-	/// <summary>
-	/// Interaction logic for Window1.xaml
-	/// </summary>
+    /// <summary>
+    /// Interaction logic for Window1.xaml
+    /// </summary>
 
-	public partial class Window1 : Window
-	{
+    public partial class Window1 : Window
+    {
         // <Snippet2>
         private void getLayoutSlot1(object sender, System.Windows.RoutedEventArgs e)
         {
@@ -30,5 +30,5 @@ namespace layout_information
             txt2.Text = "LayoutSlot is equal to " + LayoutInformation.GetLayoutSlot(txt1).ToString();
         }
         //</Snippet2>
-	}
+    }
 }

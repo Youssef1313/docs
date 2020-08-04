@@ -9,9 +9,9 @@ using System.Collections;
 using System.Threading;
 namespace GeoOvwSample
 {
-        /// <summary>
-        /// Interaction logic for Window1.xaml
-        /// </summary>
+    /// <summary>
+    /// Interaction logic for Window1.xaml
+    /// </summary>
 
     public partial class SampleViewer : Page
     {
@@ -19,5 +19,5 @@ namespace GeoOvwSample
         {
             InitializeComponent();
         }
-     }
+    }
 }

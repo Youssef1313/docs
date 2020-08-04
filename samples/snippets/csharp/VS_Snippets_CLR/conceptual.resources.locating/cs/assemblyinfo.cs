@@ -37,4 +37,4 @@ using System.Resources;
 [assembly: AssemblyFileVersion("1.0.0.0")]
 // <Snippet2>
 [assembly: NeutralResourcesLanguageAttribute("en")]
- // </Snippet2>
+// </Snippet2>

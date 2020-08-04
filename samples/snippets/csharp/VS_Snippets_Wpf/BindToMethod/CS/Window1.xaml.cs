@@ -11,21 +11,21 @@ using System.ComponentModel;
 
 namespace ObjectDataProviderSample
 {
-	/// <summary>
-	/// Interaction logic for Window1.xaml
-	/// </summary>
+    /// <summary>
+    /// Interaction logic for Window1.xaml
+    /// </summary>
 
-	public partial class Window1 : Window
-	{
+    public partial class Window1 : Window
+    {
 
-		public Window1()
-		{
-			InitializeComponent();
-		}
-	}
+        public Window1()
+        {
+            InitializeComponent();
+        }
+    }
 
-	public class TemperatureScale : INotifyPropertyChanged
-	{
+    public class TemperatureScale : INotifyPropertyChanged
+    {
         private TempType type;
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -39,15 +39,15 @@ namespace ObjectDataProviderSample
             this.type = type;
         }
 
-		public TempType Type
-		{
-			get { return type; }
-			set
+        public TempType Type
+        {
+            get { return type; }
+            set
             {
                 type = value;
                 OnPropertyChanged("Type");
             }
-		}
+        }
 
         public string ConvertTemp(double degree, TempType temptype)
         {
@@ -66,7 +66,7 @@ namespace ObjectDataProviderSample
                 PropertyChanged(this, new PropertyChangedEventArgs(name));
             }
         }
-	}
+    }
 
     public enum TempType
     {

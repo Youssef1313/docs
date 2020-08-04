@@ -6,7 +6,7 @@ using System.ComponentModel;
 
 namespace BusinessLayerValidation
 {
-//<SnippetIDataErrorInfo>
+    //<SnippetIDataErrorInfo>
     public class Person : IDataErrorInfo
     {
         private int age;
@@ -42,5 +42,5 @@ namespace BusinessLayerValidation
             }
         }
     }
-//</SnippetIDataErrorInfo>
+    //</SnippetIDataErrorInfo>
 }

@@ -23,7 +23,8 @@ namespace Microsoft.Samples.Animation.LocalAnimations
 {
 
     // Create the demonstration.
-    public class InteractiveAnimationExample : Page {
+    public class InteractiveAnimationExample : Page
+    {
 
         private TranslateTransform interactiveTranslateTransform;
         private Border containerBorder;

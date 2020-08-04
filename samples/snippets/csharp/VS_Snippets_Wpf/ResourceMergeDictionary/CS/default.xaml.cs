@@ -28,7 +28,8 @@ namespace SDKSamples
                 fs.Close();
                 return rd;
             }
-            else {
+            else
+            {
                 FileStream fs = new FileStream(_rdFileName, FileMode.Open);
                 ResourceDictionary rd = (ResourceDictionary)XamlReader.Load(fs);
                 root.Resources.MergedDictionaries.Add(rd);

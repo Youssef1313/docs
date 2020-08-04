@@ -13,7 +13,7 @@ namespace SDKSamples
         public CommandSlider() : base()
         {
         }
-    //</SnippetImplementICommandSourceClassDefinition>
+        //</SnippetImplementICommandSourceClassDefinition>
 
         // ICommand Interface Memembers
         //<SnippetImplementICommandSourceCommandPropertyDefinition>
@@ -84,7 +84,7 @@ namespace SDKSamples
             DependencyPropertyChangedEventArgs e)
         {
             CommandSlider cs = (CommandSlider)d;
-            cs.HookUpCommand((ICommand)e.OldValue,(ICommand)e.NewValue);
+            cs.HookUpCommand((ICommand)e.OldValue, (ICommand)e.NewValue);
         }
         //</SnippetImplementICommandSourceCommandChanged>
         //<SnippetImplementICommandSourceHookUnHookCommands>

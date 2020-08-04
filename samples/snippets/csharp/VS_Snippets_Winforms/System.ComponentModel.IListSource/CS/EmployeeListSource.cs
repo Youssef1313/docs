@@ -8,7 +8,7 @@ namespace IListSourceCS
 {
     public class EmployeeListSource : Component, IListSource
     {
-        public EmployeeListSource() {}
+        public EmployeeListSource() { }
 
         public EmployeeListSource(IContainer container)
         {
@@ -28,7 +28,7 @@ namespace IListSourceCS
         // <snippet4>
         System.Collections.IList IListSource.GetList()
         {
-            BindingList<Employee>   ble = new BindingList<Employee>();
+            BindingList<Employee> ble = new BindingList<Employee>();
 
             if (!this.DesignMode)
             {

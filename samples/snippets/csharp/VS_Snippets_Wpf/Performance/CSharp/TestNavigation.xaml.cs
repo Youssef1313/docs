@@ -7,12 +7,12 @@ using System.ComponentModel;
 namespace SDKSample
 {
     public partial class TestNavigation : Page
-	{
-		NavigationWindow navWindow;
+    {
+        NavigationWindow navWindow;
 
         private void Init(object sender, EventArgs e)
         {
-	        navWindow = (NavigationWindow) MyApp.Current.MainWindow;
+            navWindow = (NavigationWindow)MyApp.Current.MainWindow;
         }
 
         // <SnippetPerformanceSnippet14>

@@ -35,14 +35,16 @@ namespace WpfApplication1
             var query =
             from customer in customers
             orderby customer.CompanyName
-            select new {
+            select new
+            {
                 customer.LastName,
                 customer.FirstName,
                 customer.CompanyName,
                 customer.Title,
                 customer.EmailAddress,
                 customer.Phone,
-                customer.SalesPerson };
+                customer.SalesPerson
+            };
 
             dataGrid1.ItemsSource = query.ToList();
         }

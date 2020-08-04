@@ -18,8 +18,8 @@ namespace SdkSample
             try
             {
                 Visibility visibilityToConvert = (Visibility)value;
-                if (   (visibilityToConvert == Visibility.Collapsed)
-                    || (visibilityToConvert == Visibility.Hidden)    )
+                if ((visibilityToConvert == Visibility.Collapsed)
+                    || (visibilityToConvert == Visibility.Hidden))
                 {
                     return true;
                 }

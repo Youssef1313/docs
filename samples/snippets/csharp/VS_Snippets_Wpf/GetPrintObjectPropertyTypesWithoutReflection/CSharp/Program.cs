@@ -19,7 +19,7 @@ namespace GetPrintObjectPropertiesWithoutReflection
 
             PrintPropertyDictionary printQueueProperties = defaultPrintQueue.PropertiesCollection;
 
-            Console.WriteLine("These are the properties, and their types, of {0}, a {1}", defaultPrintQueue.Name, defaultPrintQueue.GetType().ToString() +"\n");
+            Console.WriteLine("These are the properties, and their types, of {0}, a {1}", defaultPrintQueue.Name, defaultPrintQueue.GetType().ToString() + "\n");
 
             foreach (DictionaryEntry entry in printQueueProperties)
             {

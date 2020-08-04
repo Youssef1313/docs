@@ -1910,7 +1910,7 @@ namespace SdkSample
             columnSpan = 0;
             subColumnWidth = 0;
 
-            while (columnSpanningValue <  columnWidth && columnSpanningIndex < columnStarts.Count - 1)
+            while (columnSpanningValue < columnWidth && columnSpanningIndex < columnStarts.Count - 1)
             {
                 subColumnWidth = (double)columnStarts[columnSpanningIndex + 1] - (double)columnStarts[columnSpanningIndex];
                 Debug.Assert(subColumnWidth > 0);
@@ -2257,7 +2257,7 @@ namespace SdkSample
                     xamlElement.SetAttribute(property.Name, stringValue);
                 }
             }
-            catch(Exception)
+            catch (Exception)
             {
             }
         }
@@ -2614,11 +2614,11 @@ namespace SdkSample
         public const string Xaml_FontSize = "FontSize";
         // The sizes for an increasing range, each is uo to 1.5 times as large as the previous one. If the mediun is 10pt, then:
         public const string Xaml_FontSize_XXLarge = "34pt"; // "XXLarge";
-        public const string Xaml_FontSize_XLarge  = "22pt"; // "XLarge";
-        public const string Xaml_FontSize_Large   = "15pt"; // "Large";
-        public const string Xaml_FontSize_Medium  = "10pt"; // "Medium";
-        public const string Xaml_FontSize_Small   = "8pt"; // "Small";
-        public const string Xaml_FontSize_XSmall  = "6pt"; // "XSmall";
+        public const string Xaml_FontSize_XLarge = "22pt"; // "XLarge";
+        public const string Xaml_FontSize_Large = "15pt"; // "Large";
+        public const string Xaml_FontSize_Medium = "10pt"; // "Medium";
+        public const string Xaml_FontSize_Small = "8pt"; // "Small";
+        public const string Xaml_FontSize_XSmall = "6pt"; // "XSmall";
         public const string Xaml_FontSize_XXSmall = "4pt"; // "XXSmall";
 
         public const string Xaml_FontWeight = "FontWeight";

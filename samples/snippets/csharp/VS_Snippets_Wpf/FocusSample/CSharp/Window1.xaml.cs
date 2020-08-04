@@ -29,7 +29,7 @@ namespace FocusSample
         }
         //</SnippetFocusSampleSetFocus>
 
- //<SnippetFEPredictFocus>
+        //<SnippetFEPredictFocus>
         private void OnPredictFocus(object sender, RoutedEventArgs e)
         {
             DependencyObject predictionElement = null;
@@ -66,7 +66,7 @@ namespace FocusSample
                 }
             }
         }
- //</SnippetFEPredictFocus>
+        //</SnippetFEPredictFocus>
 
         private void OnMoveFocus(object sender, RoutedEventArgs e)
         {

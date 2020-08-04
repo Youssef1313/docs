@@ -15,8 +15,8 @@ namespace Microsoft.Samples.BrushExamples
 
     public partial class OpacityExample : Page
     {
-       public OpacityExample()
-       {
-       }
+        public OpacityExample()
+        {
+        }
     }
 }

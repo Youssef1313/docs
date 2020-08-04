@@ -195,7 +195,7 @@ namespace SdkSample
         {
             if (_htmlCharacterEntities.Contains(entityName))
             {
-                return (char) _htmlCharacterEntities[entityName];
+                return (char)_htmlCharacterEntities[entityName];
             }
             else
             {

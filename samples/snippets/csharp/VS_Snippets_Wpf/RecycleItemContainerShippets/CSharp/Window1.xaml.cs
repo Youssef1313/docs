@@ -93,7 +93,7 @@ namespace RecycleItemContainerShippets
                 return null;
             }
 
-            StackPanel sp = ((Window1) Application.Current.MainWindow).sp1;
+            StackPanel sp = ((Window1)Application.Current.MainWindow).sp1;
 
             if (value < 5)
             {

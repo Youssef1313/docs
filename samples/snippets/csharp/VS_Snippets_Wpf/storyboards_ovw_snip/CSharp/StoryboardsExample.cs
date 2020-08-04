@@ -58,7 +58,7 @@ namespace Microsoft.Samples.Animation
             myStoryboard.Children.Add(myDoubleAnimation);
             myStoryboard.Children.Add(myColorAnimation);
 
-            myRectangle.MouseEnter += delegate(object sender, MouseEventArgs e)
+            myRectangle.MouseEnter += delegate (object sender, MouseEventArgs e)
             {
                 myStoryboard.Begin(this);
             };

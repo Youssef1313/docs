@@ -12,9 +12,9 @@ namespace Microsoft.Samples.Graphics.Geometries
     public partial class ShapeGeometriesExample : Page
     {
 
-       public ShapeGeometriesExample()
-       {
+        public ShapeGeometriesExample()
+        {
             InitializeComponent();
-       }
+        }
     }
 }

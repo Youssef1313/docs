@@ -48,7 +48,7 @@ namespace Microsoft.Security.Samples
             myServiceHost.Open();
             //</snippet1>
             // Use the GetHostEntry method to return the actual machine name.
-            string machineName = System.Net.Dns.GetHostEntry("").HostName ;
+            string machineName = System.Net.Dns.GetHostEntry("").HostName;
             Console.WriteLine("Listening @ {0}:8037/serviceModelSamples/", machineName);
             Console.WriteLine("Press Enter to close the service");
             Console.ReadLine();

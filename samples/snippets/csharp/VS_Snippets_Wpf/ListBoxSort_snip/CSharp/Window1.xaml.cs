@@ -28,10 +28,10 @@ namespace ListBoxSort_snip
         //<SnippetHowToCode>
         private void OnClick(object sender, RoutedEventArgs e)
         {
-//<SnippetSort>
+            //<SnippetSort>
             myListBox.Items.SortDescriptions.Add(
                 new SortDescription("Content", ListSortDirection.Descending));
-//</SnippetSort>
+            //</SnippetSort>
         }
         //</SnippetHowToCode>
     }

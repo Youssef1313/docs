@@ -23,7 +23,8 @@ namespace Microsoft.Samples.Animation.TimingBehaviors
 {
 
     // Create the demonstration.
-    public class ClockHandoffBehaviorExample : Page {
+    public class ClockHandoffBehaviorExample : Page
+    {
 
         private TranslateTransform interactiveTranslateTransform;
         private Border containerBorder;

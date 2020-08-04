@@ -20,7 +20,7 @@ namespace Input_Ovw
         {
             //<SnippetInput_OvwHandlingInputCodeBehind>
             // Create the UI elements.
-            StackPanel inputStackPanel= new StackPanel();
+            StackPanel inputStackPanel = new StackPanel();
             Button inputButton = new Button();
             TextBox inputTextBox = new TextBox();
 

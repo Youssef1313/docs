@@ -89,7 +89,7 @@ namespace ElementProvider
             if (SelectedIndex >= 0)
             {
                 IRawElementProviderSimple itemProvider = (IRawElementProviderSimple)MyList[SelectedIndex];
-                IRawElementProviderSimple[] providers =  { itemProvider };
+                IRawElementProviderSimple[] providers = { itemProvider };
                 return providers;
             }
             else

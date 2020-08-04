@@ -103,7 +103,7 @@ namespace Microsoft.ServiceModel.Samples
         MyClientCredentials credentials;
 
         public MyClientCredentialsSecurityTokenManager(
-            MyClientCredentials credentials): base(credentials)
+            MyClientCredentials credentials) : base(credentials)
         {
             this.credentials = credentials;
         }

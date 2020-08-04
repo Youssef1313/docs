@@ -126,7 +126,7 @@ namespace DynamicWalkthrough
             }
             finally
             {
-                if (sr != null) {sr.Close();}
+                if (sr != null) { sr.Close(); }
             }
 
             return results;

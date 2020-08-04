@@ -10,7 +10,7 @@ namespace SDKSample
 {
 
     public partial class BevelExample : Page
-	{
+    {
 
         // Add Bevel effect.
         void OnMouseOverBevelButton(object sender, RoutedEventArgs args)

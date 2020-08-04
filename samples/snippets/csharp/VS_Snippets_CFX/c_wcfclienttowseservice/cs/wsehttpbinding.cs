@@ -19,7 +19,7 @@ namespace Microsoft.ServiceModel.Samples
     // <snippet1>
     public class WseHttpBinding : Binding
     {
-    // </snippet1>
+        // </snippet1>
         public WseHttpBinding() { }
         // <snippet2>
         public override BindingElementCollection CreateBindingElements()

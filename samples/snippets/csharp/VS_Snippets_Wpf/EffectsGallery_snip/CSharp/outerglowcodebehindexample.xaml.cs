@@ -9,8 +9,8 @@ using System.Windows.Media.Effects;
 namespace SDKSample
 {
 
-	public partial class OuterGlowExample : Page
-	{
+    public partial class OuterGlowExample : Page
+    {
 
         // Add OuterGlow effect.
         void OnFocusCreateGlow(object sender, RoutedEventArgs args)

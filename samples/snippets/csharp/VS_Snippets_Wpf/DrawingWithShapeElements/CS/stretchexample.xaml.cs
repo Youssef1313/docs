@@ -10,11 +10,11 @@ using System.Windows.Media.Animation;
 namespace Microsoft.Samples.Graphics
 {
 
-    public partial class StretchExample: Page
+    public partial class StretchExample : Page
     {
         public StretchExample()
         {
-           InitializeComponent();
+            InitializeComponent();
         }
     }
 }

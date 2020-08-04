@@ -65,13 +65,13 @@ namespace pitfalls_cs
 
         private void Urg()
         {
-        string path = @"C\";
-        //<snippet04>
-        FileStream fs = File.OpenWrite(path);
-        byte[] bytes = new Byte[10000000];
-        // ...
-        Parallel.For(0, bytes.Length, (i) => fs.WriteByte(bytes[i]));
-        //</snippet04>
+            string path = @"C\";
+            //<snippet04>
+            FileStream fs = File.OpenWrite(path);
+            byte[] bytes = new Byte[10000000];
+            // ...
+            Parallel.For(0, bytes.Length, (i) => fs.WriteByte(bytes[i]));
+            //</snippet04>
         }
     }
 }

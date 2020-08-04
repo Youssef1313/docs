@@ -9,10 +9,10 @@ using System.Configuration;
 using System.Transactions;
 namespace Microsoft.ServiceModel.Samples
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
+    class Program
+    {
+        static void Main(string[] args)
+        {
             //Connect to the queue.
             MessageQueue orderQueue = new MessageQueue(@"FormatName:Direct=OS:" + ConfigurationManager.AppSettings["orderQueueName"]);
 
@@ -49,6 +49,6 @@ namespace Microsoft.ServiceModel.Samples
             Console.WriteLine("Placed the order:{0}", po);
             Console.WriteLine("Press <ENTER> to terminate client.");
             Console.ReadLine();
-		}
-	}
+        }
+    }
 }

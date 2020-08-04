@@ -94,7 +94,7 @@ public class Form1 : System.Windows.Forms.Form
     }
     // </snippet7>
 
-     // <snippet8>
+    // <snippet8>
     // These event handlers are called when the user tabs or clicks
     // out of the customerIdTextBox or hits the return key.
     // The database is then queried with the CustomerID

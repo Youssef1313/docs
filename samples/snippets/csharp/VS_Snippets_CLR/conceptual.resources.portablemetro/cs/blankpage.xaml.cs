@@ -20,7 +20,7 @@ namespace ConsumerCS
         public BlankPage()
         {
             this.InitializeComponent();
-         }
+        }
 
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
@@ -29,8 +29,8 @@ namespace ConsumerCS
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-           Example.DisplayData(outputBlock);
-       }
+            Example.DisplayData(outputBlock);
+        }
     }
 }
 

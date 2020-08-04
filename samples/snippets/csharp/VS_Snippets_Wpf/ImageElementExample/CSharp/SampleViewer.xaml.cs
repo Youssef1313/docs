@@ -9,11 +9,11 @@ using System.Windows.Media;
 
 namespace ImageElementExample
 {
-   public partial class SampleViewer : Window
-   {
-      public SampleViewer()
-      {
-         InitializeComponent();
-      }
-   }
+    public partial class SampleViewer : Window
+    {
+        public SampleViewer()
+        {
+            InitializeComponent();
+        }
+    }
 }

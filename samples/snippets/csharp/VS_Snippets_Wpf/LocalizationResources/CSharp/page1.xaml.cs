@@ -15,9 +15,9 @@
         //<Snippet2>
         void OnClick(object sender, RoutedEventArgs e)
         {
-          ResourceManager rm = new ResourceManager ("MySampleApp.data.stringtable",
-               Assembly.GetExecutingAssembly());
-          Text1.Text = rm.GetString("Message");
+            ResourceManager rm = new ResourceManager("MySampleApp.data.stringtable",
+                 Assembly.GetExecutingAssembly());
+            Text1.Text = rm.GetString("Message");
         }
         //</Snippet2>
     }

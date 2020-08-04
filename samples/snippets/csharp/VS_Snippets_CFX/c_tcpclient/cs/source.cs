@@ -9,7 +9,8 @@ using System.Security.Permissions;
 [assembly: SecurityPermission(
    SecurityAction.RequestMinimum, Execution = true)]
 namespace Microsoft.Security.Samples
-{    internal class Service
+{
+    internal class Service
     {
         static void Main(string[] args)
         {

@@ -16,7 +16,7 @@ using System.Collections.Generic;
 namespace Microsoft.ServiceModel.Samples
 {
     // Define a service contract.
-    [ServiceContract(Namespace = "http://Microsoft.ServiceModel.Samples", SessionMode=SessionMode.Required)]
+    [ServiceContract(Namespace = "http://Microsoft.ServiceModel.Samples", SessionMode = SessionMode.Required)]
     public interface IOrderTaker
     {
         [OperationContract(IsOneWay = true)]
@@ -113,7 +113,7 @@ namespace Microsoft.ServiceModel.Samples
 
     // Service class which implements the service contract.
     // Added code to write output to the console window
-    [ServiceBehavior(InstanceContextMode=InstanceContextMode.PerSession)]
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerSession)]
     public class OrderTakerService : IOrderTaker
     {
         PurchaseOrder po;

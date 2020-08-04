@@ -12,8 +12,8 @@ namespace Microsoft.Samples.Graphics.UsingImageBrush
     public partial class TilingExample : Page
     {
 
-    public TilingExample()
-    {
-    }
+        public TilingExample()
+        {
+        }
     }
 }

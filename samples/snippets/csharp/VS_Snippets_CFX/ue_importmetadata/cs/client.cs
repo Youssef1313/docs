@@ -35,10 +35,10 @@ namespace Microsoft.ServiceModel.Samples
 
             //<Snippet3>
             ServiceContractGenerator generator = new ServiceContractGenerator();
-			foreach (ContractDescription contract in contracts)
-			{
-				generator.GenerateServiceContractType(contract);
-			}
+            foreach (ContractDescription contract in contracts)
+            {
+                generator.GenerateServiceContractType(contract);
+            }
 
             if (generator.Errors.Count != 0)
                 throw new Exception("There were errors during code compilation.");
@@ -47,11 +47,11 @@ namespace Microsoft.ServiceModel.Samples
             // Write the code dom
             //<Snippet4>
             System.CodeDom.Compiler.CodeGeneratorOptions options = new System.CodeDom.Compiler.CodeGeneratorOptions();
-			options.BracingStyle = "C";
-			System.CodeDom.Compiler.CodeDomProvider codeDomProvider = System.CodeDom.Compiler.CodeDomProvider.CreateProvider("C#");
-			System.CodeDom.Compiler.IndentedTextWriter textWriter = new System.CodeDom.Compiler.IndentedTextWriter(new System.IO.StreamWriter(outputFile));
-			codeDomProvider.GenerateCodeFromCompileUnit(generator.TargetCompileUnit, textWriter, options);
-			textWriter.Close();
+            options.BracingStyle = "C";
+            System.CodeDom.Compiler.CodeDomProvider codeDomProvider = System.CodeDom.Compiler.CodeDomProvider.CreateProvider("C#");
+            System.CodeDom.Compiler.IndentedTextWriter textWriter = new System.CodeDom.Compiler.IndentedTextWriter(new System.IO.StreamWriter(outputFile));
+            codeDomProvider.GenerateCodeFromCompileUnit(generator.TargetCompileUnit, textWriter, options);
+            textWriter.Close();
             //</Snippet4>
 
             Console.WriteLine();

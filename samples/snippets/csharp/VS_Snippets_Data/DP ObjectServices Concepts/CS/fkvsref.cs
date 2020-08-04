@@ -391,7 +391,7 @@ namespace ObjectServicesConceptsCS
                 ctx.Contacts.AddObject(c);
                 ctx.AcceptAllChanges();
 
-//                Debug.ReferenceEquals(p.Contact, c);
+                //                Debug.ReferenceEquals(p.Contact, c);
             }
         }
     }

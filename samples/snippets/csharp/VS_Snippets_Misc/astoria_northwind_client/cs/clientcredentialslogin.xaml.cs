@@ -21,8 +21,8 @@ namespace NorthwindClient
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
-             this.DialogResult = false;
-             e.Handled = true;
+            this.DialogResult = false;
+            e.Handled = true;
         }
 
         private void LoginWindow_Closing(object sender, CancelEventArgs e)

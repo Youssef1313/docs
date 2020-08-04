@@ -32,7 +32,7 @@ namespace FocusSample
         {
 
             if (Mouse.RightButton == MouseButtonState.Pressed &&
-                Mouse.LeftButton == MouseButtonState.Pressed  &&
+                Mouse.LeftButton == MouseButtonState.Pressed &&
                 Mouse.MiddleButton == MouseButtonState.Pressed)
             {
                 UpdateSampleResults("Right,Left,Middle Buttons Pressed");

@@ -45,7 +45,7 @@ namespace NorthwindClient
 
                 // Create a new collection for binding based on the LINQ query.
                 trackedCustomers = new DataServiceCollection<Customer>(customerQuery,
-                    TrackingMode.AutoChangeTracking,"Customers",
+                    TrackingMode.AutoChangeTracking, "Customers",
                     OnPropertyChanged, OnCollectionChanged);
 
                 // Bind the root StackPanel element to the collection;

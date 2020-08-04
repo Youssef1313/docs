@@ -12,7 +12,7 @@ using System.Xml;
 
 namespace SdkSample
 {
-    class XamlSerializerWriter:SerializerWriter
+    class XamlSerializerWriter : SerializerWriter
     {
         public XamlSerializerWriter(Stream stream)
         {

@@ -9,8 +9,8 @@ using System.Collections.Generic;
 
 namespace Service
 {
-	class Snippets
-	{
+    class Snippets
+    {
         public static void Snippet9()
         {
             // <Snippet9>
@@ -36,5 +36,5 @@ namespace Service
             }
             // </Snippet11>
         }
-	}
+    }
 }

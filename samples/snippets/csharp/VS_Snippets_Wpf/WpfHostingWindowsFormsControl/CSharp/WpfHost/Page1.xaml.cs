@@ -106,11 +106,11 @@ namespace WpfHost
 
             if (args.IsOK)
             {
-                txtName.Inlines.Add( " " + args.MyName );
-                txtAddress.Inlines.Add( " " + args.MyStreetAddress );
-                txtCity.Inlines.Add( " " + args.MyCity );
-                txtState.Inlines.Add( " " + args.MyState );
-                txtZip.Inlines.Add( " " + args.MyZip );
+                txtName.Inlines.Add(" " + args.MyName);
+                txtAddress.Inlines.Add(" " + args.MyStreetAddress);
+                txtCity.Inlines.Add(" " + args.MyCity);
+                txtState.Inlines.Add(" " + args.MyState);
+                txtZip.Inlines.Add(" " + args.MyZip);
             }
         }
         // </snippet12>

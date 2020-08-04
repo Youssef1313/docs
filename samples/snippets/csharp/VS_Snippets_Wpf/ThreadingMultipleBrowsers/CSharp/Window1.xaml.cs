@@ -18,7 +18,7 @@ namespace SDKSamples
 
         private void OnLoaded(object sender, RoutedEventArgs e)
         {
-           placeHolder.Source = new Uri("http://www.msn.com");
+            placeHolder.Source = new Uri("http://www.msn.com");
         }
 
         private void Browse(object sender, RoutedEventArgs e)

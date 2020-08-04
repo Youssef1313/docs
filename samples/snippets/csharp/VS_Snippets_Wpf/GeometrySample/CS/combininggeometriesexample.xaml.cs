@@ -12,9 +12,9 @@ namespace Microsoft.Samples.Graphics.Geometries
     public partial class CombiningGeometriesExample : Page
     {
 
-       public CombiningGeometriesExample()
-       {
+        public CombiningGeometriesExample()
+        {
             InitializeComponent();
-       }
+        }
     }
 }

@@ -13,20 +13,20 @@ namespace cs_serialize
     {
         static void Main(string[] args)
         {
-// <Snippet6>
-Northwnd db = new Northwnd(@"c\northwnd.mdf");
+            // <Snippet6>
+            Northwnd db = new Northwnd(@"c\northwnd.mdf");
 
-Customer cust = db.Customers.Where(c => c.CustomerID ==
-    "ALFKI").Single();
+            Customer cust = db.Customers.Where(c => c.CustomerID ==
+                "ALFKI").Single();
 
-DataContractSerializer dcs =
-    new DataContractSerializer(typeof(Customer));
-StringBuilder sb = new StringBuilder();
-XmlWriter writer = XmlWriter.Create(sb);
-dcs.WriteObject(writer, cust);
-writer.Close();
-string xml = sb.ToString();
-// </Snippet6>
+            DataContractSerializer dcs =
+                new DataContractSerializer(typeof(Customer));
+            StringBuilder sb = new StringBuilder();
+            XmlWriter writer = XmlWriter.Create(sb);
+            dcs.WriteObject(writer, cust);
+            writer.Close();
+            string xml = sb.ToString();
+            // </Snippet6>
         }
     }
 }

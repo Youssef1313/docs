@@ -56,7 +56,7 @@ namespace Microsoft.Samples.BrushExamples
             Image myImage = new Image();
             BitmapImage myBitmapImage = new BitmapImage();
             myBitmapImage.BeginInit();
-            myBitmapImage.UriSource = new Uri("sampleImages/berries.jpg",UriKind.Relative);
+            myBitmapImage.UriSource = new Uri("sampleImages/berries.jpg", UriKind.Relative);
             myBitmapImage.EndInit();
             myImage.Source = myBitmapImage;
             ImageBrush myImageBrush = new ImageBrush(myBitmapImage);

@@ -56,7 +56,7 @@ namespace Microsoft.Samples.Animation
                 mouseEnterColorAnimation, new PropertyPath(SolidColorBrush.ColorProperty));
             Storyboard mouseEnterStoryboard = new Storyboard();
             mouseEnterStoryboard.Children.Add(mouseEnterColorAnimation);
-            aRectangle.MouseEnter += delegate(object sender, MouseEventArgs e)
+            aRectangle.MouseEnter += delegate (object sender, MouseEventArgs e)
             {
                 mouseEnterStoryboard.Begin(this);
             };
@@ -73,7 +73,7 @@ namespace Microsoft.Samples.Animation
                 mouseLeaveColorAnimation, new PropertyPath(SolidColorBrush.ColorProperty));
             Storyboard mouseLeaveStoryboard = new Storyboard();
             mouseLeaveStoryboard.Children.Add(mouseLeaveColorAnimation);
-            aRectangle.MouseLeave += delegate(object sender, MouseEventArgs e)
+            aRectangle.MouseLeave += delegate (object sender, MouseEventArgs e)
             {
                 mouseLeaveStoryboard.Begin(this);
             };
@@ -91,7 +91,7 @@ namespace Microsoft.Samples.Animation
                 opacityAnimation, new PropertyPath(SolidColorBrush.OpacityProperty));
             Storyboard mouseLeftButtonDownStoryboard = new Storyboard();
             mouseLeftButtonDownStoryboard.Children.Add(opacityAnimation);
-            aRectangle.MouseLeftButtonDown += delegate(object sender, MouseButtonEventArgs e)
+            aRectangle.MouseLeftButtonDown += delegate (object sender, MouseButtonEventArgs e)
             {
                 mouseLeftButtonDownStoryboard.Begin(this);
             };

@@ -79,7 +79,7 @@ namespace SDKSamples
             }
 
             // If the pressed key is equal to the target key.
-            if(e.Key == target)
+            if (e.Key == target)
             {
                 // Incrementing  the number of hits, and updating
                 // the label which displays the number of hits.

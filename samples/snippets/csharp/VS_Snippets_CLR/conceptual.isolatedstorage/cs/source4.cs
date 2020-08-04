@@ -10,7 +10,7 @@ public class DeletingFilesDirectories
         // Get a new isolated store for this user domain and assembly.
         // Put the store into an isolatedStorageFile object.
 
-        IsolatedStorageFile isoStore =  IsolatedStorageFile.GetStore(IsolatedStorageScope.User |
+        IsolatedStorageFile isoStore = IsolatedStorageFile.GetStore(IsolatedStorageScope.User |
             IsolatedStorageScope.Domain | IsolatedStorageScope.Assembly, null, null);
 
         Console.WriteLine("Creating Directories:");

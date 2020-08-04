@@ -84,7 +84,7 @@ namespace PropertyMappingWithElementHost
             System.Windows.Controls.Button wpfButton =
                 host.Child as System.Windows.Controls.Button;
 
-            Thickness t = new Thickness(p.Left, p.Top, p.Right, p.Bottom );
+            Thickness t = new Thickness(p.Left, p.Top, p.Right, p.Bottom);
 
             wpfButton.Margin = t;
         }

@@ -373,8 +373,8 @@ namespace SDKSample
                     // Print the document with annotations.
                     try
                     {
-                        xdw.Write(  GetAnnotationDocumentPaginator(
-                            _xpsDocument.GetFixedDocumentSequence() )  );
+                        xdw.Write(GetAnnotationDocumentPaginator(
+                            _xpsDocument.GetFixedDocumentSequence()));
                     }
                     catch (PrintingCanceledException)
                     {

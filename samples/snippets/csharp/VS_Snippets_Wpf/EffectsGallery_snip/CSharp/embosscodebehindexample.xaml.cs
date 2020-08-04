@@ -10,7 +10,7 @@ namespace SDKSample
 {
 
     public partial class EmbossExample : Page
-	{
+    {
 
         // Add Bevel effect.
         void OnLoadEmbossImage(object sender, RoutedEventArgs args)

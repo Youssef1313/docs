@@ -54,7 +54,7 @@ namespace ElementProvider
             myText = text;
             parentControl = parent;
             parentItems = items;
-            myID = parentItems.Count+1;
+            myID = parentItems.Count + 1;
             myIndex = parentItems.Count;
             myBounds = myRect;
         }

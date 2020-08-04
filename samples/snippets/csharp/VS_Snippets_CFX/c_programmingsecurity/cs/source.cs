@@ -135,7 +135,7 @@ namespace Windows.Communication.Foundation.Samples
             {
                 //<snippet10>
                 BasicHttpBinding b = new BasicHttpBinding();
-                b.Security.Mode = BasicHttpSecurityMode.Transport ;
+                b.Security.Mode = BasicHttpSecurityMode.Transport;
                 b.Security.Transport.ClientCredentialType = HttpClientCredentialType.Windows;
                 //</snippet10>
             }

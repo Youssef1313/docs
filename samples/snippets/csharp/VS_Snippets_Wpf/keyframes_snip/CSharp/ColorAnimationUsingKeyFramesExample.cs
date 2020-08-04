@@ -101,7 +101,7 @@ namespace Microsoft.Samples.KeyFrameExamples
             myStoryboard.Children.Add(colorAnimation);
 
             // Start the storyboard when the Border loads.
-            myBorder.Loaded += delegate(object sender, RoutedEventArgs e)
+            myBorder.Loaded += delegate (object sender, RoutedEventArgs e)
             {
                 myStoryboard.Begin(this);
             };

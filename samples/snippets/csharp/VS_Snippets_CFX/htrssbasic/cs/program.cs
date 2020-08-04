@@ -83,7 +83,7 @@ namespace Service
 
             try
             {
-                 // <Snippet8>
+                // <Snippet8>
                 svcHost.Open();
                 Console.WriteLine("Service is running");
 

@@ -294,11 +294,11 @@ public class class1
     // <snippet31>
     public void FillTwoRectangles(PaintEventArgs e)
     {
-       LinearGradientBrush linGrBrush = new LinearGradientBrush(
-           new Point(0, 10),
-           new Point(200, 10),
-           Color.Red,
-           Color.Blue);
+        LinearGradientBrush linGrBrush = new LinearGradientBrush(
+            new Point(0, 10),
+            new Point(200, 10),
+            Color.Red,
+            Color.Blue);
 
         e.Graphics.FillRectangle(linGrBrush, 0, 0, 200, 50);
         linGrBrush.GammaCorrection = true;

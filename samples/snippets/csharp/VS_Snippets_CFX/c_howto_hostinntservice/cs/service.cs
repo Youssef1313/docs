@@ -75,7 +75,7 @@ namespace Microsoft.ServiceModel.Samples
         {
             ServiceBase.Run(new CalculatorWindowsService());
         }
-    // </Snippet3>
+        // </Snippet3>
 
         // <Snippet4>
         // Start the Windows service.

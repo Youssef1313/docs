@@ -15,8 +15,8 @@ namespace Microsoft.Samples.Brushes
 
     public partial class SolidColorBrushExample : Page
     {
-       public SolidColorBrushExample()
-       {
-       }
+        public SolidColorBrushExample()
+        {
+        }
     }
 }

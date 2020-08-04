@@ -14,12 +14,12 @@ namespace ResourcesSample
         public ImageSourceSnippetWindow()
         {
             InitializeComponent();
-//<SnippetSetImageSourceCODEBEHIND2>
-// Create Uri that maps to a resource
-Uri uri = new Uri("EmbeddedOrLooseResource.bmp", UriKind.Relative);
-// Load embedded resource
-this.resourceImage.Source = new System.Windows.Media.Imaging.BitmapImage(uri);
-//</SnippetSetImageSourceCODEBEHIND2>
+            //<SnippetSetImageSourceCODEBEHIND2>
+            // Create Uri that maps to a resource
+            Uri uri = new Uri("EmbeddedOrLooseResource.bmp", UriKind.Relative);
+            // Load embedded resource
+            this.resourceImage.Source = new System.Windows.Media.Imaging.BitmapImage(uri);
+            //</SnippetSetImageSourceCODEBEHIND2>
         }
     }
 }

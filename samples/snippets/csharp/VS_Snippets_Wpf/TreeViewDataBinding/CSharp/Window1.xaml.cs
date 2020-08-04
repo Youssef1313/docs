@@ -26,7 +26,7 @@ namespace TreeViewDataBinding
         {
 
             EnglishNewspaper engnews = EnglishNewspapers.SelectedItem as EnglishNewspaper;
-            if( engnews != null ) NewspaperFrame.Navigate(new System.Uri(engnews.Website));
+            if (engnews != null) NewspaperFrame.Navigate(new System.Uri(engnews.Website));
         }
         //</Snippet5>
     }

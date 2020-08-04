@@ -12,7 +12,7 @@ using System.Security.Permissions;
    SecurityAction.RequestMinimum, Execution = true)]
 namespace Microsoft.ServiceModel.Samples
 {
-    [ServiceContract(Namespace="http://Microsoft.ServiceModel.Samples")]
+    [ServiceContract(Namespace = "http://Microsoft.ServiceModel.Samples")]
     public interface ICalculator
     {
         [OperationContract]

@@ -9,16 +9,16 @@ using System.Configuration;
 
 namespace ImageElementExample
 {
-	/// <summary>
-	/// Interaction logic for MyApp.xaml
-	/// </summary>
+    /// <summary>
+    /// Interaction logic for MyApp.xaml
+    /// </summary>
 
-	public partial class MyApp : Application
-	{
-		void AppStartingUp(object sender, StartupEventArgs e)
-		{
-         SampleViewer mainWindow = new SampleViewer();
-         mainWindow.Show();
-      }
-   }
+    public partial class MyApp : Application
+    {
+        void AppStartingUp(object sender, StartupEventArgs e)
+        {
+            SampleViewer mainWindow = new SampleViewer();
+            mainWindow.Show();
+        }
+    }
 }

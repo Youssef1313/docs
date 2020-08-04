@@ -31,7 +31,7 @@ namespace keywords
 
         private static async IAsyncEnumerable<int> GenerateSequenceAsync()
         {
-            for(int i = 0; i < 40; i++)
+            for (int i = 0; i < 40; i++)
             {
                 if (i % 10 == 0)
                     await Task.Delay(2000);
@@ -102,7 +102,7 @@ namespace keywords
         private static void InfiniteForLoopExample()
         {
             // <Snippet7>
-            for ( ; ; )
+            for (; ; )
             {
                 // Body of the loop.
             }

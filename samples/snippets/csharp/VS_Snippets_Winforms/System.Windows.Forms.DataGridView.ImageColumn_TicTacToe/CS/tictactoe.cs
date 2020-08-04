@@ -197,7 +197,7 @@ public class TicTacToe : System.Windows.Forms.Form
     {
         dataGridView1.ColumnHeadersVisible = false;
         dataGridView1.RowHeadersVisible = false;
-        dataGridView1.AllowUserToResizeColumns = false;;
+        dataGridView1.AllowUserToResizeColumns = false; ;
         dataGridView1.AllowUserToResizeRows = false;
         dataGridView1.BorderStyle = BorderStyle.None;
 

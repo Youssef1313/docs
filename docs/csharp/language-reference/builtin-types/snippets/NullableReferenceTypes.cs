@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 
 namespace builtin_types
 {
-    #nullable enable
+#nullable enable
     public static class NullableReferenceTypes
     {
         public static void Examples()
@@ -33,7 +33,7 @@ namespace builtin_types
             public ProductDescription(string productDescription) =>
                 this.shortDescription = productDescription;
 
-            public void SetDescriptions(string productDescription, string? details=null)
+            public void SetDescriptions(string productDescription, string? details = null)
             {
                 shortDescription = productDescription;
                 detailedDescription = details;
@@ -80,5 +80,5 @@ namespace builtin_types
             string result = item.FullDescription();
         }
     }
-    #nullable restore
+#nullable restore
 }

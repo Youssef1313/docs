@@ -93,7 +93,7 @@ namespace SdkSample
                     return false;
                 }
             }
-            catch(XmlException)
+            catch (XmlException)
             {
                 return false;
             }

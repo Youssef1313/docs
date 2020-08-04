@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Security.Cryptography;
 
@@ -21,7 +21,7 @@ public class main
             //Create a CryptoStream, pass it the FileStream, and encrypt
             //it with the Aes class.  
             CryptoStream cryptStream = new CryptoStream(
-                myStream, 
+                myStream,
                 aes.CreateEncryptor(key, iv),
                 CryptoStreamMode.Write);
 

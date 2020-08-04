@@ -16,7 +16,7 @@ namespace WsHttp
             WSHttpBinding b = new WSHttpBinding();
             b.Name = "myBinding";
             b.Security.Mode = SecurityMode.Message;
-            b.Security.Message.ClientCredentialType=MessageCredentialType.Windows;
+            b.Security.Message.ClientCredentialType = MessageCredentialType.Windows;
             //</snippet1>
         }
 

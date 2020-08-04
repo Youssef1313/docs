@@ -12,9 +12,9 @@ namespace SDKSample
 {
     public partial class RoutedEventCustomApp
     {
-		private void TapHandler(object sender, RoutedEventArgs e)
-		{
-   			MessageBox.Show("Tapped!");
-		}
+        private void TapHandler(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Tapped!");
+        }
     }
 }

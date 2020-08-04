@@ -23,7 +23,8 @@ namespace Microsoft.Samples.Animation.AnimatingWithStoryboards
 {
 
     // Create the demonstration.
-    public class FrameworkElementStoryboardHandoffBehaviorExample : Page {
+    public class FrameworkElementStoryboardHandoffBehaviorExample : Page
+    {
 
         private Border containerBorder;
         private Ellipse interactiveEllipse;

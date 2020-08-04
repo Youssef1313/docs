@@ -6,7 +6,7 @@ using System.Windows.Documents.Serialization;
 
 namespace SdkSample
 {
-    class HtmlSerializerFactory :  ISerializerFactory
+    class HtmlSerializerFactory : ISerializerFactory
     {
         /// <summary>
         /// Create a SerializerWriter on the passed in stream

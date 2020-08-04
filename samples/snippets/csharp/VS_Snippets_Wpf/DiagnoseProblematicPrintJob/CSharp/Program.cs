@@ -84,7 +84,7 @@ namespace DiagnoseProblematicPrintJob
                 String pServer = Console.ReadLine();
                 if (pServer == "")
                 {
-                    pServer = "\\\\" +Environment.MachineName;
+                    pServer = "\\\\" + Environment.MachineName;
                 }
                 Console.Write("\nEnter the print queue hosting the job: ");
                 String pQueue = Console.ReadLine();

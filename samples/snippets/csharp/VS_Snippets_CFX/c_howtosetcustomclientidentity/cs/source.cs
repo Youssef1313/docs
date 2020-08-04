@@ -250,7 +250,7 @@ namespace Microsoft.ServiceModel.Samples
 
 namespace part2
 {
-        //<snippet7>
+    //<snippet7>
     public class CustomIdentityVerifier : IdentityVerifier
     {
         // Code to be added.

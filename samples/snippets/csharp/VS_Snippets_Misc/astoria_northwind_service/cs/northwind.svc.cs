@@ -27,7 +27,7 @@ namespace NorthwindDataService
                 | EntitySetRights.WriteMerge);
             config.SetEntitySetAccessRule("Order_Details", EntitySetRights.All);
             config.SetEntitySetAccessRule("Products", EntitySetRights.All);
-        //</snippetDataServiceConfig>
+            //</snippetDataServiceConfig>
 
             //<snippetDataServiceConfigPaging>
             // Set page size defaults for the data service.

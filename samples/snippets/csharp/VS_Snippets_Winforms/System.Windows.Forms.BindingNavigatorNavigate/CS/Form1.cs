@@ -179,7 +179,7 @@ namespace System.Windows.Forms.BindingSourceCurrent
             //
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
 
-	    // bindingNavigatorMoveNextItem
+            // bindingNavigatorMoveNextItem
             //
             this.bindingNavigatorMoveNextItem.Image =
                 ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));

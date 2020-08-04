@@ -40,7 +40,7 @@ namespace Samples
 
         public override MessageVersion Version
         {
-            get { throw new NotImplementedException("The method is not implemented.") ; }
+            get { throw new NotImplementedException("The method is not implemented."); }
         }
 
         public override MessageProperties Properties
@@ -70,7 +70,7 @@ namespace Samples
     }
     //</snippet2>
 
-    public interface  Weather
+    public interface Weather
     {
         //<snippet3>
         [OperationContract]
@@ -94,7 +94,7 @@ namespace Samples
     //</snippet6>
     {
 
-        public FileMessage( string someFileName)
+        public FileMessage(string someFileName)
         {
             throw new NotImplementedException();
         }
@@ -177,10 +177,10 @@ namespace Samples
     {
         //<snippet10>
         [OperationContract]
-         void SubmitOrder(SubmitOrderMessage m);
+        void SubmitOrder(SubmitOrderMessage m);
         //</snippet10>
     }
-    public interface  three
+    public interface three
     {
         //<snippet11>
         [OperationContract]

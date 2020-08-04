@@ -81,10 +81,10 @@ namespace PrintPreviewApp
         private void printPreviewButton_Click(object sender, EventArgs e)
         {
             ReadDocument();
-    	    //<snippet5>
+            //<snippet5>
             printPreviewDialog1.Document = printDocument1;
             //</snippet5>
-	    printPreviewDialog1.ShowDialog();
+            printPreviewDialog1.ShowDialog();
         }
         //</snippet4>
 

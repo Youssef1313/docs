@@ -59,7 +59,8 @@ namespace ServiceModel.Samples
     //</snippet3>
 
     //<snippet4>
-    [DataContract][Flags]
+    [DataContract]
+    [Flags]
     public enum CarFeatures
     {
         None = 0,

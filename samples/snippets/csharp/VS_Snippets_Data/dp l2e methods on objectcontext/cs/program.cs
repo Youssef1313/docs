@@ -55,23 +55,24 @@ namespace MethodsOnObjectContext
                 int productId = 776;
 
                 var details = from s in AWEntities.SalesOrderDetails
-                              where s.ProductID == productId select s;
+                              where s.ProductID == productId
+                              select s;
 
                 Console.WriteLine(MyClass.GetProductRevenue(details));
             }
             //</snippet6>
         }
 
-	public static void D()
+        public static void D()
         {
             //<snippet9>
             using (AdventureWorksEntities AWEntities = new AdventureWorksEntities())
             {
                 int productId = 776;
 
-                var lineTotals = AWEntities.GetDetailsById(productId).Select(d =>d.LineTotal);
+                var lineTotals = AWEntities.GetDetailsById(productId).Select(d => d.LineTotal);
 
-                foreach(var lineTotal in lineTotals)
+                foreach (var lineTotal in lineTotals)
                 {
                     Console.WriteLine(lineTotal);
                 }

@@ -101,7 +101,8 @@ namespace Microsoft.Samples.Animation.AnimatingWithStoryboards
             try
             {
                 myStoryboard.Begin(this, HandoffBehavior.SnapshotAndReplace);
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }

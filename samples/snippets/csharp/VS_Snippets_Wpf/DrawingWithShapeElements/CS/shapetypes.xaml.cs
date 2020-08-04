@@ -14,7 +14,7 @@ namespace Microsoft.Samples.Graphics
     {
         public ShapeTypes()
         {
-           InitializeComponent();
+            InitializeComponent();
         }
     }
 }

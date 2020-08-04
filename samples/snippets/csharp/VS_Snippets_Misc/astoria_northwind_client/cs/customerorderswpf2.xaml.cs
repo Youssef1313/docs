@@ -40,9 +40,9 @@ namespace NorthwindClient
             context = new NorthwindEntities(new Uri(svcUri));
 
             // Create a LINQ query that returns customers with related orders.
-            var  customerQuery = from cust in context.Customers.Expand("Orders")
-                                 where cust.Country == customerCountry
-                                 select cust;
+            var customerQuery = from cust in context.Customers.Expand("Orders")
+                                where cust.Country == customerCountry
+                                select cust;
 
             // Create a new collection for binding based on the LINQ query.
             trackedCustomers = new DataServiceCollection<Customer>(customerQuery);

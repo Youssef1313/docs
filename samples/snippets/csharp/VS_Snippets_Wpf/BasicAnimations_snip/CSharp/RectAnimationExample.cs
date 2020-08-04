@@ -53,7 +53,7 @@ namespace SDKSamples
             ellipseStoryboard.Children.Add(myRectAnimation);
 
             // Start the storyboard when the Path loads.
-            myPath.Loaded += delegate(object sender, RoutedEventArgs e)
+            myPath.Loaded += delegate (object sender, RoutedEventArgs e)
             {
                 ellipseStoryboard.Begin(this);
             };

@@ -46,7 +46,7 @@ namespace Custom_Binder
             // Invoke the overload.
             myType.InvokeMember("MyMethod", BindingFlags.InvokeMethod,
                 myCustomBinder, myInstance,
-                new Object[] {"Testing...", (int)32});
+                new Object[] { "Testing...", (int)32 });
         }
     }
 

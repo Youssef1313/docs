@@ -35,7 +35,7 @@ namespace SDKSample
                 // First Bezier curve is specified with these three points.
 
                 // First control point for first Bezier curve.
-                pointList.Add(new Point(100,0));
+                pointList.Add(new Point(100, 0));
 
                 // Second control point for first Bezier curve.
                 pointList.Add(new Point(200, 200));

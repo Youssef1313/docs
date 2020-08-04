@@ -29,7 +29,7 @@ namespace CustomProvider
     //</snippet1>
 
     //<snippet2>
-    internal class MyClientCredentialsSecurityTokenManager:ClientCredentialsSecurityTokenManager
+    internal class MyClientCredentialsSecurityTokenManager : ClientCredentialsSecurityTokenManager
     {
         ClientCredentials credentials;
 

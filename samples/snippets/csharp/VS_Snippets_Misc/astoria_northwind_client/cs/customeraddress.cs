@@ -180,12 +180,12 @@ namespace NorthwindClient
         string postalCode,
         string country)
         {
-         _customerID = customerID;
-         _address = address;
-         _city = city;
-         _region = region;
-         _postalCode = postalCode;
-         _country = country;
+            _customerID = customerID;
+            _address = address;
+            _city = city;
+            _region = region;
+            _postalCode = postalCode;
+            _country = country;
         }
     }
 }

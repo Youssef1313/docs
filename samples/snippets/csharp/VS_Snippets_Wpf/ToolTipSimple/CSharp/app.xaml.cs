@@ -7,11 +7,11 @@ using System.Configuration;
 
 namespace ToolTipSimple_wcp
 {
-	/// <summary>
-	/// Interaction logic for app.xaml
-	/// </summary>
+    /// <summary>
+    /// Interaction logic for app.xaml
+    /// </summary>
 
-	public partial class app : Application
-	{
-	}
+    public partial class app : Application
+    {
+    }
 }

@@ -29,7 +29,7 @@ namespace Example
 
             bindings.Add(security);
             TextMessageEncodingBindingElement encoding = new TextMessageEncodingBindingElement();
-            bindings.Add(encoding );
+            bindings.Add(encoding);
             HttpTransportBindingElement transport = new HttpTransportBindingElement();
             bindings.Add(transport);
             CustomBinding myBinding = new CustomBinding(bindings);
@@ -43,7 +43,7 @@ namespace Example
             SymmetricSecurityBindingElement sec = (SymmetricSecurityBindingElement)
                 SecurityBindingElement.CreateMutualCertificateBindingElement();
             //</snippet2>
-         }
+        }
         static void Main()
         {
             // Empty

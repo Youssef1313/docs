@@ -143,7 +143,7 @@ namespace NorthwindService
             // Comment out the following line if you'd prefer a silent failure
             throw new NotSupportedException();
         }
-    #endregion
+        #endregion
         //</snippetIUdatableImplementation>
     }
 }

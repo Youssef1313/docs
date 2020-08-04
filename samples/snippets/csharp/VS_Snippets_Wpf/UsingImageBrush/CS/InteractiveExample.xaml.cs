@@ -15,7 +15,7 @@ namespace Microsoft.Samples.Graphics.UsingImageBrush
 
     public partial class InteractiveExample : Page
     {
-      RadioButton selectedButton = null;
+        RadioButton selectedButton = null;
 
         public InteractiveExample()
         {
@@ -24,8 +24,8 @@ namespace Microsoft.Samples.Graphics.UsingImageBrush
         private void InteractiveExampleLoaded(object sender, RoutedEventArgs args)
         {
 
-          loadInteractiveMenus();
-          MyDefaultImageButton.IsChecked = true;
+            loadInteractiveMenus();
+            MyDefaultImageButton.IsChecked = true;
         }
 
         // Initializes the image brush menu options.

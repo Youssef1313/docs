@@ -6,11 +6,11 @@ using System.Windows.Documents;
 
 namespace Width_MinWidth_MaxWidth
 {
-	/// <summary>
-	/// Interaction logic for Window1.xaml
-	/// </summary>
+    /// <summary>
+    /// Interaction logic for Window1.xaml
+    /// </summary>
 
-	public partial class Window1 : Window
+    public partial class Window1 : Window
     {
         // <Snippet3>
         private void changeWidth(object sender, SelectionChangedEventArgs args)
@@ -46,7 +46,7 @@ namespace Width_MinWidth_MaxWidth
             txt3.Text = "MinWidth is set to " + rect1.MinWidth;
             txt4.Text = "MaxWidth is set to " + rect1.MaxWidth;
         }
-    //</Snippet3>
+        //</Snippet3>
         private void clipRect(object sender, RoutedEventArgs args)
         {
             myCanvas.ClipToBounds = true;

@@ -6,11 +6,11 @@
 
     public class Example
     {
-       static void Main(string[] args)
-       {
+        static void Main(string[] args)
+        {
             FirstExample.Tests();
             WriteLine();
             SecondExample.Tests();
-       }
+        }
     }
 }

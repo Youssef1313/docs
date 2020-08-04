@@ -51,12 +51,12 @@ namespace Examples.AdvancedProgramming.AsynchronousOperations
         static void CallbackMethod(IAsyncResult ar)
         {
             // Retrieve the delegate.
-            AsyncResult result = (AsyncResult) ar;
-            AsyncMethodCaller caller = (AsyncMethodCaller) result.AsyncDelegate;
+            AsyncResult result = (AsyncResult)ar;
+            AsyncMethodCaller caller = (AsyncMethodCaller)result.AsyncDelegate;
 
             // Retrieve the format string that was passed as state
             // information.
-            string formatString = (string) ar.AsyncState;
+            string formatString = (string)ar.AsyncState;
 
             // Define a variable to receive the value of the out parameter.
             // If the parameter were ref rather than out then it would have to

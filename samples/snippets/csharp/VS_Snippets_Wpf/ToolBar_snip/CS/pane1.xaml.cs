@@ -11,12 +11,12 @@ using System.Windows.Threading;
 
 namespace ToolBarStyles
 {
-	/// <summary>
-	/// Interaction logic for Pane1.xaml
-	/// </summary>
-        	
-        public partial class Pane1 : Window
+    /// <summary>
+    /// Interaction logic for Pane1.xaml
+    /// </summary>
 
-	{
-       }
+    public partial class Pane1 : Window
+
+    {
+    }
 }

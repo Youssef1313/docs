@@ -74,7 +74,7 @@ namespace Microsoft.Samples.Entity
                 new AdventureWorksEntities())
             {
                 ObjectQuery<DbDataRecord> query = new ObjectQuery<DbDataRecord>(queryString, context);
-                query.Parameters.Add(new ObjectParameter("customer",customerId));
+                query.Parameters.Add(new ObjectParameter("customer", customerId));
 
                 foreach (DbDataRecord rec in query)
                 {

@@ -8,12 +8,12 @@ namespace IListSourceCS
 {
     public class Employee : BusinessObjectBase
     {
-        private string      _id;
-        private string      _name;
-        private Decimal     parkingId;
+        private string _id;
+        private string _name;
+        private Decimal parkingId;
 
-        public Employee() : this(string.Empty, 0) {}
-        public Employee(string name) : this(name, 0) {}
+        public Employee() : this(string.Empty, 0) { }
+        public Employee(string name) : this(name, 0) { }
 
         public Employee(string name, Decimal parkingId) : base()
         {

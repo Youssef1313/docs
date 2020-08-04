@@ -16,7 +16,7 @@ namespace RotateColors
     {
         public Form1()
         {
-            this.Paint +=new PaintEventHandler(Form1_Paint);
+            this.Paint += new PaintEventHandler(Form1_Paint);
         }
 
         [STAThread]
@@ -30,7 +30,7 @@ namespace RotateColors
         {
             RotateColors(e);
         }
-//<snippet1>
+        //<snippet1>
         private void RotateColors(PaintEventArgs e)
         {
             Bitmap image = new Bitmap("RotationInput.bmp");
@@ -65,6 +65,6 @@ namespace RotateColors
                 GraphicsUnit.Pixel,
                imageAttributes);
         }
-//</snippet1>
+        //</snippet1>
     }
 }
