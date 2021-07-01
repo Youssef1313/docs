@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IS_TRY_FIX: true # differentiates /tryfix from the validation-only run.
-      GITHUB_PR_NUMBER: ${{ github.event.issue.number }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - name: Checkout the repository
