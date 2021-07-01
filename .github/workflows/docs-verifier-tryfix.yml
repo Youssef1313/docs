@@ -32,3 +32,4 @@ jobs:
           git status
           git add .
           git commit -m "Automated: Fix links"
+          git push
