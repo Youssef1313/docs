@@ -1,4 +1,4 @@
-name: MSDocs build verifier
+name: MSDocs build verifier - tryfix
 on:
   issue_comment:
     types: [created]
