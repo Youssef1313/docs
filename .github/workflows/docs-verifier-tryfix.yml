@@ -3,10 +3,6 @@ on:
   issue_comment:
     types: [created]
 
-env:
-  GITHUB_PR_NUMBER: ${{ github.event.pull_request.number }}
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 jobs:
   tryfix:
     if: github.event.issue.pull_request != '' && contains(github.event.comment.body, '/tryfix')
@@ -14,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IS_TRY_FIX: true # differentiates /tryfix from the validation-only run.
+      GITHUB_PR_NUMBER: ${{ github.event.pull_request.number }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - name: Checkout the repository
       uses: actions/checkout@a81bbbf8298c0fa03ea29cdc473d45769f953675 #@v2
