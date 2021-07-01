@@ -9,7 +9,7 @@ env:
 
 jobs:
   tryfix:
-    if: github.event.issue.pull_request != '' && contains(github.event.comment.body, '/tryfix')
+    #if: github.event.issue.pull_request != '' && contains(github.event.comment.body, '/tryfix')
     name: Try fix build
     runs-on: ubuntu-latest
     env:
