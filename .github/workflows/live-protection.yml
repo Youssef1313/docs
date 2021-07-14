@@ -10,7 +10,7 @@ jobs:
         with:
           script: |
             console.log(process.env.SHOULD_COMMENT)
-            if (process.env.SHOULD_COMMENT) {
+            if (process.env.SHOULD_COMMENT == 'true') {
               github.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
