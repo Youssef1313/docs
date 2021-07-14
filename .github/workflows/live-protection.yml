@@ -9,7 +9,6 @@ jobs:
           SHOULD_COMMENT: ${{ github.base_ref == 'refs/heads/live' && !(github.event.issue.user.login == 'cxwtool' || github.head_ref == 'refs/heads/main') }}
         with:
           script: |
-            console.log(process.env.SHOULD_COMMENT)
             if (process.env.SHOULD_COMMENT == 'true') {
               github.issues.createComment({
                 issue_number: context.issue.number,
