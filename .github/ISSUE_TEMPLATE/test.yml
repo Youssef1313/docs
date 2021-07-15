@@ -70,6 +70,7 @@ body:
     attributes:
       label: Feature area
       description: What feature area(s) does the change affect?
+      multiple: true
       options:
         - .NET 6 Preview 6- [ ] ASP.NET Core
         - C#
