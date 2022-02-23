@@ -5,6 +5,10 @@
             "redirect_url": "/dotnet/standard/index"
         },
         {
+            "source_path": "docs/fundamentals/syslib-diagnostics/source-generator-overview.md",
+            "redirect_url": "/dotnet/fundamentals/syslib-diagnostics/source-generators-overview"
+        },
+        {
             "source_path": "docs/about/products.md",
             "redirect_url": "/dotnet/standard/components"
         },
