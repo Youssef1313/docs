@@ -78,8 +78,6 @@ If you want to remove this behavior and manually control all namespaces in your 
 
   <PropertyGroup>
     ...
-    <ImplicitUsings>disable</ImplicitUsings>
-  </PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
