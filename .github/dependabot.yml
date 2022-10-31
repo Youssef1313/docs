@@ -333,6 +333,12 @@ updates:
       day: "wednesday"
     open-pull-requests-limit: 5
   - package-ecosystem: "nuget"
+    directory: "/docs/core/porting/snippets/upgrade-assistant-wpf-framework/csharp/StarVoteControl" #StarVoteControl.csproj
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "nuget"
     directory: "/docs/core/porting/snippets/upgrade-assistant-wpf-framework/csharp/WebSiteRatings" #WebSiteRatings.csproj
     schedule:
       interval: "weekly"
