@@ -5,6 +5,7 @@ ms.date: 09/15/2022
 f1_keywords: 
   - "var"
   - "var_CSharpKeyword"
+  - "scoped_CSharpKeyword"
 helpviewer_keywords: 
   - "var keyword [C#]"
 ---
