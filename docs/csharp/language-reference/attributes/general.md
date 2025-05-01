@@ -249,4 +249,4 @@ All overloads with a lower priority than the highest overload priority are remov
 - <xref:System.Attribute>
 - <xref:System.Reflection>
 - [Attributes](../../../standard/attributes/index.md)
-- [Reflection](/dotnet/csharp/advanced-topics/reflection-and-attributes/)
+- [Reflection](../../advanced-topics/reflection-and-attributes/index.md)
